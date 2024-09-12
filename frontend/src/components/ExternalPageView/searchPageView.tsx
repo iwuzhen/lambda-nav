@@ -1,7 +1,7 @@
 import { ExternalLinkIcon } from "@chakra-ui/icons"
 import data from "./data.json"
 import {
-    Card, CardHeader, CardBody, CardFooter, Text, Link, Heading, Button, Tag,
+    Card, CardHeader, CardBody, Text, Link, Heading, Button, Tag,
     TagLabel, VStack, Box, Checkbox, useCheckboxGroup,
     Accordion,
     AccordionButton,
@@ -49,18 +49,18 @@ externalPageList.forEach(item => {
 // // 使用示例
 // checkResourceAvailability('https://arxiv-category-ontology.knogen.com/');
 
-function capitalizeFirstLetter(string: string): string {
-    return string.charAt(0).toUpperCase() + string.slice(1);
-}
+// function capitalizeFirstLetter(string: string): string {
+//     return string.charAt(0).toUpperCase() + string.slice(1);
+// }
 
-function filterView() {
+// function filterView() {
 
-    return (
-        <Flex>
-            Fileter
-        </Flex>
-    )
-}
+//     return (
+//         <Flex>
+//             Fileter
+//         </Flex>
+//     )
+// }
 
 /**
  * 过滤掉数组中出现频率最高的元素，并返回包含出现次数的标签数组

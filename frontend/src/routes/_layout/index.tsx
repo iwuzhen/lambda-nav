@@ -1,4 +1,4 @@
-import { Box, Container, Flex, Text, Link, useColorModeValue } from "@chakra-ui/react"
+import { Container, Flex, Text, Link, useColorModeValue } from "@chakra-ui/react"
 import { createFileRoute } from "@tanstack/react-router"
 
 
