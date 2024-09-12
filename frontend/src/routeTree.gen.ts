@@ -16,10 +16,16 @@ import { Route as ResetPasswordImport } from './routes/reset-password'
 import { Route as RecoverPasswordImport } from './routes/recover-password'
 import { Route as LoginImport } from './routes/login'
 import { Route as LayoutImport } from './routes/_layout'
+import { Route as AdminImport } from './routes/_admin'
 import { Route as LayoutIndexImport } from './routes/_layout/index'
-import { Route as LayoutSettingsImport } from './routes/_layout/settings'
-import { Route as LayoutItemsImport } from './routes/_layout/items'
-import { Route as LayoutAdminImport } from './routes/_layout/admin'
+import { Route as LayoutPageImport } from './routes/_layout/page'
+import { Route as LayoutExplorerImport } from './routes/_layout/explorer'
+import { Route as AdminAdminSettingsImport } from './routes/_admin/admin/settings'
+import { Route as AdminAdminPageTagsImport } from './routes/_admin/admin/pageTags'
+import { Route as AdminAdminItemsImport } from './routes/_admin/admin/items'
+import { Route as AdminAdminExternalPagesImport } from './routes/_admin/admin/externalPages'
+import { Route as AdminAdminDashboardImport } from './routes/_admin/admin/dashboard'
+import { Route as AdminAdminAdminImport } from './routes/_admin/admin/admin'
 
 // Create/Update Routes
 
@@ -48,30 +54,64 @@ const LayoutRoute = LayoutImport.update({
   getParentRoute: () => rootRoute,
 } as any)
 
+const AdminRoute = AdminImport.update({
+  id: '/_admin',
+  getParentRoute: () => rootRoute,
+} as any)
+
 const LayoutIndexRoute = LayoutIndexImport.update({
   path: '/',
   getParentRoute: () => LayoutRoute,
 } as any)
 
-const LayoutSettingsRoute = LayoutSettingsImport.update({
-  path: '/settings',
+const LayoutPageRoute = LayoutPageImport.update({
+  path: '/page',
   getParentRoute: () => LayoutRoute,
 } as any)
 
-const LayoutItemsRoute = LayoutItemsImport.update({
-  path: '/items',
+const LayoutExplorerRoute = LayoutExplorerImport.update({
+  path: '/explorer',
   getParentRoute: () => LayoutRoute,
 } as any)
 
-const LayoutAdminRoute = LayoutAdminImport.update({
-  path: '/admin',
-  getParentRoute: () => LayoutRoute,
+const AdminAdminSettingsRoute = AdminAdminSettingsImport.update({
+  path: '/admin/settings',
+  getParentRoute: () => AdminRoute,
+} as any)
+
+const AdminAdminPageTagsRoute = AdminAdminPageTagsImport.update({
+  path: '/admin/pageTags',
+  getParentRoute: () => AdminRoute,
+} as any)
+
+const AdminAdminItemsRoute = AdminAdminItemsImport.update({
+  path: '/admin/items',
+  getParentRoute: () => AdminRoute,
+} as any)
+
+const AdminAdminExternalPagesRoute = AdminAdminExternalPagesImport.update({
+  path: '/admin/externalPages',
+  getParentRoute: () => AdminRoute,
+} as any)
+
+const AdminAdminDashboardRoute = AdminAdminDashboardImport.update({
+  path: '/admin/dashboard',
+  getParentRoute: () => AdminRoute,
+} as any)
+
+const AdminAdminAdminRoute = AdminAdminAdminImport.update({
+  path: '/admin/admin',
+  getParentRoute: () => AdminRoute,
 } as any)
 
 // Populate the FileRoutesByPath interface
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/_admin': {
+      preLoaderRoute: typeof AdminImport
+      parentRoute: typeof rootRoute
+    }
     '/_layout': {
       preLoaderRoute: typeof LayoutImport
       parentRoute: typeof rootRoute
@@ -92,21 +132,41 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SignupImport
       parentRoute: typeof rootRoute
     }
-    '/_layout/admin': {
-      preLoaderRoute: typeof LayoutAdminImport
+    '/_layout/explorer': {
+      preLoaderRoute: typeof LayoutExplorerImport
       parentRoute: typeof LayoutImport
     }
-    '/_layout/items': {
-      preLoaderRoute: typeof LayoutItemsImport
-      parentRoute: typeof LayoutImport
-    }
-    '/_layout/settings': {
-      preLoaderRoute: typeof LayoutSettingsImport
+    '/_layout/page': {
+      preLoaderRoute: typeof LayoutPageImport
       parentRoute: typeof LayoutImport
     }
     '/_layout/': {
       preLoaderRoute: typeof LayoutIndexImport
       parentRoute: typeof LayoutImport
+    }
+    '/_admin/admin/admin': {
+      preLoaderRoute: typeof AdminAdminAdminImport
+      parentRoute: typeof AdminImport
+    }
+    '/_admin/admin/dashboard': {
+      preLoaderRoute: typeof AdminAdminDashboardImport
+      parentRoute: typeof AdminImport
+    }
+    '/_admin/admin/externalPages': {
+      preLoaderRoute: typeof AdminAdminExternalPagesImport
+      parentRoute: typeof AdminImport
+    }
+    '/_admin/admin/items': {
+      preLoaderRoute: typeof AdminAdminItemsImport
+      parentRoute: typeof AdminImport
+    }
+    '/_admin/admin/pageTags': {
+      preLoaderRoute: typeof AdminAdminPageTagsImport
+      parentRoute: typeof AdminImport
+    }
+    '/_admin/admin/settings': {
+      preLoaderRoute: typeof AdminAdminSettingsImport
+      parentRoute: typeof AdminImport
     }
   }
 }
@@ -114,10 +174,17 @@ declare module '@tanstack/react-router' {
 // Create and export the route tree
 
 export const routeTree = rootRoute.addChildren([
+  AdminRoute.addChildren([
+    AdminAdminAdminRoute,
+    AdminAdminDashboardRoute,
+    AdminAdminExternalPagesRoute,
+    AdminAdminItemsRoute,
+    AdminAdminPageTagsRoute,
+    AdminAdminSettingsRoute,
+  ]),
   LayoutRoute.addChildren([
-    LayoutAdminRoute,
-    LayoutItemsRoute,
-    LayoutSettingsRoute,
+    LayoutExplorerRoute,
+    LayoutPageRoute,
     LayoutIndexRoute,
   ]),
   LoginRoute,

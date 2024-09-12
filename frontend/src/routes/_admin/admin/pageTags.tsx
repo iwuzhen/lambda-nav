@@ -17,43 +17,43 @@ import { createFileRoute, useNavigate } from "@tanstack/react-router"
 import { useEffect } from "react"
 import { z } from "zod"
 
-import { ItemsService } from "../../client"
-import ActionsMenu from "../../components/Common/ActionsMenu"
-import Navbar from "../../components/Common/Navbar"
-import AddItem from "../../components/Items/AddItem"
+import { PageTagsService } from "../../../client"
+import ActionsMenu from "../../../components/Common/ActionsMenu"
+import Navbar from "../../../components/Common/Navbar"
+import AddPageTag from "../../../components/PageTags/AddPageTag"
 
 const itemsSearchSchema = z.object({
   page: z.number().catch(1),
 })
 
-export const Route = createFileRoute("/_layout/items")({
-  component: Items,
+export const Route = createFileRoute("/_admin/admin/pageTags")({
+  component: PageTags,
   validateSearch: (search) => itemsSearchSchema.parse(search),
 })
 
 const PER_PAGE = 5
 
-function getItemsQueryOptions({ page }: { page: number }) {
+function getPageTagsQueryOptions({ page, title }: { page: number, title: string }) {
   return {
     queryFn: () =>
-      ItemsService.readItems({ skip: (page - 1) * PER_PAGE, limit: PER_PAGE }),
-    queryKey: ["items", { page }],
+      PageTagsService.readPageTags({ skip: (page - 1) * PER_PAGE, limit: PER_PAGE, title: title }),
+    queryKey: ["Page-tags", { page }],
   }
 }
 
-function ItemsTable() {
+function PageTagsTable() {
   const queryClient = useQueryClient()
   const { page } = Route.useSearch()
   const navigate = useNavigate({ from: Route.fullPath })
   const setPage = (page: number) =>
-    navigate({ search: (prev) => ({ ...prev, page }) })
+    navigate({ search: (prev: any) => ({ ...prev, page }) })
 
   const {
     data: items,
     isPending,
     isPlaceholderData,
   } = useQuery({
-    ...getItemsQueryOptions({ page }),
+    ...getPageTagsQueryOptions({ page, title: "" }),
     placeholderData: (prevData) => prevData,
   })
 
@@ -62,7 +62,7 @@ function ItemsTable() {
 
   useEffect(() => {
     if (hasNextPage) {
-      queryClient.prefetchQuery(getItemsQueryOptions({ page: page + 1 }))
+      queryClient.prefetchQuery(getPageTagsQueryOptions({ page: page + 1, title: "" }))
     }
   }, [page, queryClient, hasNextPage])
 
@@ -75,6 +75,7 @@ function ItemsTable() {
               <Th>ID</Th>
               <Th>Title</Th>
               <Th>Description</Th>
+              <Th>weight</Th>
               <Th>Actions</Th>
             </Tr>
           </Thead>
@@ -103,8 +104,16 @@ function ItemsTable() {
                   >
                     {item.description || "N/A"}
                   </Td>
+                  <Td
+                    color={!item.weight ? "ui.dim" : "inherit"}
+                    isTruncated
+                    maxWidth="150px"
+                  >
+                    {item.weight || "N/A"}
+                  </Td>
                   <Td>
-                    <ActionsMenu type={"Item"} value={item} />
+                    {/* Info: modify the type and modeify the actionsmenu */}
+                    <ActionsMenu type={"PageTag"} value={item} />
                   </Td>
                 </Tr>
               ))}
@@ -131,15 +140,15 @@ function ItemsTable() {
   )
 }
 
-function Items() {
+function PageTags() {
   return (
     <Container maxW="full">
       <Heading size="lg" textAlign={{ base: "center", md: "left" }} pt={12}>
-        Items Management
+        External Pages Management
       </Heading>
 
-      <Navbar type={"Item"} addModalAs={AddItem} />
-      <ItemsTable />
+      <Navbar type={"PageTag"} addModalAs={AddPageTag} />
+      <PageTagsTable />
     </Container>
   )
 }

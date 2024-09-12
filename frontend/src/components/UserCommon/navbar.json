@@ -1,0 +1,45 @@
+[
+    {
+        "title": "Home",
+        "to": "/",
+        "id": "home"
+    },
+    {
+        "title": "表格导航",
+        "to": "https://wiki.nikepai.com/v2/note/gird-index-1",
+        "id": "数据总结"
+    },
+    {
+        "title": "Topic",
+        "id": "topic",
+        "children": [
+            {
+                "title": "Category Tree",
+                "to": "/page",
+                "search": {
+                    "view": [
+                        "tree"
+                    ],
+                    "title": "Category Browser"
+                },
+                "id": "Category Tree"
+            },
+            {
+                "title": "entropy",
+                "to": "/page",
+                "search": {
+                    "tags": [
+                        "entropy"
+                    ],
+                    "title": "Entropy"
+                },
+                "id": "entropy"
+            }
+        ]
+    },
+    {
+        "title": "Explorer",
+        "to": "/explorer",
+        "id": "Explorer"
+    }
+]

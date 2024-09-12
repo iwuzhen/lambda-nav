@@ -11,7 +11,7 @@ import { useMutation, useQueryClient } from "@tanstack/react-query"
 import React from "react"
 import { useForm } from "react-hook-form"
 
-import { ItemsService, UsersService } from "../../client"
+import { ItemsService, UsersService, ExternalPagesService, PageTagsService } from "../../client"
 import useCustomToast from "../../hooks/useCustomToast"
 
 interface DeleteProps {
@@ -35,6 +35,10 @@ const Delete = ({ type, id, isOpen, onClose }: DeleteProps) => {
       await ItemsService.deleteItem({ id: id })
     } else if (type === "User") {
       await UsersService.deleteUser({ userId: id })
+    } else if (type === "ExternalPage") {
+      await ExternalPagesService.deleteItem({ id: id })
+    } else if (type === "PageTag") {
+      await PageTagsService.deletePageTag({ id: id })
     } else {
       throw new Error(`Unexpected type: ${type}`)
     }
@@ -58,8 +62,20 @@ const Delete = ({ type, id, isOpen, onClose }: DeleteProps) => {
       )
     },
     onSettled: () => {
+      // todo: info: unknow useage
+      let queryKey;
+      if (type === "ExternalPage") {
+        queryKey = ["External-pages"]
+      } else if (type === "PageTag") {
+        queryKey = ["Page-tags"]
+      } else if (type === "Item") {
+        queryKey = ["items"]
+      } else {
+        queryKey = ["users"]
+      }
+
       queryClient.invalidateQueries({
-        queryKey: [type === "Item" ? "items" : "users"],
+        queryKey,
       })
     },
   })

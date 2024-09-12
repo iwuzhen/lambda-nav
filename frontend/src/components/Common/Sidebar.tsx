@@ -9,16 +9,21 @@ import {
   IconButton,
   Image,
   Text,
+  Link,
   useColorModeValue,
   useDisclosure,
 } from "@chakra-ui/react"
 import { useQueryClient } from "@tanstack/react-query"
 import { FiLogOut, FiMenu } from "react-icons/fi"
 
-import Logo from "/assets/images/fastapi-logo.svg"
+import Logo from "/assets/images/knogen-log.svg"
 import type { UserPublic } from "../../client"
 import useAuth from "../../hooks/useAuth"
 import SidebarItems from "./SidebarItems"
+
+import {
+  Link as RouterLink,
+} from "@tanstack/react-router"
 
 const Sidebar = () => {
   const queryClient = useQueryClient()
@@ -52,7 +57,9 @@ const Sidebar = () => {
           <DrawerBody py={8}>
             <Flex flexDir="column" justify="space-between">
               <Box>
-                <Image src={Logo} alt="logo" p={6} />
+                <Link as={RouterLink} to="/">
+                  <Image src={Logo} alt="logo" p={6} />
+                </Link>
                 <SidebarItems onClose={onClose} />
                 <Flex
                   as="button"
@@ -93,7 +100,9 @@ const Sidebar = () => {
           borderRadius={12}
         >
           <Box>
-            <Image src={Logo} alt="Logo" w="180px" maxW="2xs" p={6} />
+            <Link as={RouterLink} to="/">
+              <Image src={Logo} alt="Logo" w="180px" maxW="2xs" p={6} />
+            </Link>
             <SidebarItems />
           </Box>
           {currentUser?.email && (

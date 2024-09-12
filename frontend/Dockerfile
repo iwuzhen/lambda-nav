@@ -5,11 +5,12 @@ WORKDIR /app
 
 COPY package*.json /app/
 
-RUN npm install
+RUN npm config set registry https://registry.npmmirror.com/; npm install
 
 COPY ./ /app/
 
 ARG VITE_API_URL=${VITE_API_URL}
+
 
 RUN npm run build
 

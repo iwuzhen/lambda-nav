@@ -19,16 +19,16 @@ import { createFileRoute, useNavigate } from "@tanstack/react-router"
 import { useEffect } from "react"
 import { z } from "zod"
 
-import { type UserPublic, UsersService } from "../../client"
-import AddUser from "../../components/Admin/AddUser"
-import ActionsMenu from "../../components/Common/ActionsMenu"
-import Navbar from "../../components/Common/Navbar"
+import { type UserPublic, UsersService } from "../../../client"
+import AddUser from "../../../components/Admin/AddUser"
+import ActionsMenu from "../../../components/Common/ActionsMenu"
+import Navbar from "../../../components/Common/Navbar"
 
 const usersSearchSchema = z.object({
   page: z.number().catch(1),
 })
 
-export const Route = createFileRoute("/_layout/admin")({
+export const Route = createFileRoute("/_admin/admin/admin")({
   component: Admin,
   validateSearch: (search) => usersSearchSchema.parse(search),
 })
@@ -49,7 +49,7 @@ function UsersTable() {
   const { page } = Route.useSearch()
   const navigate = useNavigate({ from: Route.fullPath })
   const setPage = (page: number) =>
-    navigate({ search: (prev) => ({ ...prev, page }) })
+    navigate({ search: (prev: any) => ({ ...prev, page }) })
 
   const {
     data: users,
