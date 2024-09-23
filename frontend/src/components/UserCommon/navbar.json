@@ -13,7 +13,7 @@
                 "to": "/page",
                 "search": {
                     "tags": [
-                        "category trees"
+                        "Category trees"
                     ],
                     "title": "Category Browser"
                 },
@@ -24,7 +24,7 @@
                 "to": "/page",
                 "search": {
                     "tags": [
-                        "entropy"
+                        "Entropy"
                     ],
                     "title": "Entropy"
                 },

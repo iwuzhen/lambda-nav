@@ -294,7 +294,7 @@ function SearchPageView({ searchParameter }: { searchParameter: PageQueryWithout
                         <MotionCard key={item.title}
                             maxW='sm'
                             className="hover:shadow-lg transition-shadow duration-300"
-                            m={4} variant="elevated" rounded='lg' boxShadow='md'
+                            m={4} variant="elevated" rounded='lg' boxShadow='2xl'
                             initial={{ opacity: 0, y: -20 }}
                             animate={{ opacity: 1, y: 0 }}
                             exit={{ opacity: 0, y: 20 }}

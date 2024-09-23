@@ -173,7 +173,7 @@
                 "fields": {
                     "abstract": "Data related to arXiv",
                     "description": "Data related to arXiv",
-                    "title": "arXiv",
+                    "title": "ArXiv",
                     "update_at": "2024/09/05 14:20:26",
                     "weight": 100
                 },
@@ -193,7 +193,7 @@
                 "fields": {
                     "abstract": "Processed data",
                     "description": "Processed data",
-                    "title": "data",
+                    "title": "Data",
                     "update_at": "2024/09/05 14:20:47",
                     "weight": 100
                 },
@@ -203,7 +203,7 @@
                 "fields": {
                     "abstract": "Internally written articles",
                     "description": "Internally written articles",
-                    "title": "article",
+                    "title": "Article",
                     "update_at": "2024/09/05 14:21:13",
                     "weight": 100
                 },
@@ -213,7 +213,7 @@
                 "fields": {
                     "abstract": "Data containing disciplinary categories",
                     "description": "Data containing disciplinary categories",
-                    "title": "subjects",
+                    "title": "Subjects",
                     "update_at": "2024/09/05 14:21:32",
                     "weight": 100
                 },
@@ -233,7 +233,7 @@
                 "fields": {
                     "abstract": "Data related to patents",
                     "description": "Data related to patents",
-                    "title": "patents",
+                    "title": "Patents",
                     "update_at": "2024/09/06 18:20:15",
                     "weight": 100
                 },
@@ -253,7 +253,7 @@
                 "fields": {
                     "abstract": "Data related to github",
                     "description": "Data related to github",
-                    "title": "github",
+                    "title": "Github",
                     "update_at": "2024/09/06 18:20:59",
                     "weight": 100
                 },
@@ -263,7 +263,7 @@
                 "fields": {
                     "abstract": "Data with the time dimension",
                     "description": "Data with the time dimension",
-                    "title": "trend charts",
+                    "title": "Trend charts",
                     "update_at": "2024/09/11 12:02:54",
                     "weight": 100
                 },
@@ -283,7 +283,7 @@
                 "fields": {
                     "abstract": "Data about people",
                     "description": "Data about people",
-                    "title": "people",
+                    "title": "People",
                     "update_at": "2024/09/11 12:22:18",
                     "weight": 100
                 },
@@ -293,7 +293,7 @@
                 "fields": {
                     "abstract": "Statistical data",
                     "description": "Statistical data",
-                    "title": "stats",
+                    "title": "Stats",
                     "update_at": "2024/09/11 12:22:57",
                     "weight": 100
                 },
@@ -303,7 +303,7 @@
                 "fields": {
                     "abstract": "Use the network entropy calculation method",
                     "description": "Use the network entropy calculation method",
-                    "title": "entropy",
+                    "title": "Entropy",
                     "update_at": "2024/09/11 14:31:04",
                     "weight": 100
                 },
@@ -313,7 +313,7 @@
                 "fields": {
                     "abstract": "Research conducted using small-world networks",
                     "description": "Research conducted using small-world networks",
-                    "title": "small world",
+                    "title": "Small world",
                     "update_at": "2024/09/11 14:31:09",
                     "weight": 100
                 },
@@ -323,7 +323,7 @@
                 "fields": {
                     "abstract": "Use the power law calculation method",
                     "description": "Use the power law calculation method",
-                    "title": "power law",
+                    "title": "Power law",
                     "update_at": "2024/09/11 15:23:15",
                     "weight": 100
                 },
@@ -333,7 +333,7 @@
                 "fields": {
                     "abstract": "Other contents",
                     "description": "Other contents",
-                    "title": "other",
+                    "title": "Other",
                     "update_at": "2024/09/12 14:05:47",
                     "weight": 1
                 },
@@ -343,7 +343,7 @@
                 "fields": {
                     "abstract": "The display related to category trees",
                     "description": "The display related to category trees",
-                    "title": "category trees",
+                    "title": "Category trees",
                     "update_at": "2024/09/12 14:14:48",
                     "weight": 100
                 },
@@ -353,7 +353,7 @@
                 "fields": {
                     "abstract": "Use the calculation method of knowledge complexity",
                     "description": "Use the calculation method of knowledge complexity",
-                    "title": "knowledge complexity",
+                    "title": "Knowledge complexity",
                     "update_at": "2024/09/14 17:40:07",
                     "weight": 100
                 },
@@ -387,9 +387,9 @@
                     ],
                     "public_url": "https://arxiv-category-ontology.knogen.com",
                     "tags": [
-                        "arXiv",
-                        "category trees",
-                        "subjects"
+                        "ArXiv",
+                        "Category trees",
+                        "Subjects"
                     ],
                     "tags_bak": [
                         "arxiv",
@@ -426,9 +426,9 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v2/demo/mag/fos-trend-2022",
                     "tags": [
-                        "category trees",
+                        "Category trees",
                         "MAG",
-                        "subjects"
+                        "Subjects"
                     ],
                     "tags_bak": [
                         "MAG",
@@ -466,8 +466,8 @@
                     "public_url": "https://wiki.nikepai.com/v2/demo/openalex/concept-tree-2022",
                     "tags": [
                         "OpenAlex",
-                        "category trees",
-                        "subjects"
+                        "Category trees",
+                        "Subjects"
                     ],
                     "tags_bak": [
                         "paper",
@@ -504,9 +504,9 @@
                     ],
                     "public_url": "https://ipc.incopat.com/index",
                     "tags": [
-                        "patents",
-                        "category trees",
-                        "subjects"
+                        "Patents",
+                        "Category trees",
+                        "Subjects"
                     ],
                     "tags_bak": [
                         "patent"
@@ -542,7 +542,7 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v2/demo/mag/subject-algorithm-tree",
                     "tags": [
-                        "subjects",
+                        "Subjects",
                         "MAG"
                     ],
                     "tags_bak": [
@@ -579,9 +579,9 @@
                     ],
                     "public_url": "https://bumps-demo-20221110.nikepai.com/page/github-eci",
                     "tags": [
-                        "github",
+                        "Github",
                         "International ",
-                        "knowledge complexity"
+                        "Knowledge complexity"
                     ],
                     "tags_bak": [
                         "github",
@@ -618,9 +618,9 @@
                     ],
                     "public_url": "https://bumps-demo-20221110.nikepai.com/page/patent",
                     "tags": [
-                        "patents",
+                        "Patents",
                         "International ",
-                        "knowledge complexity"
+                        "Knowledge complexity"
                     ],
                     "tags_bak": [
                         "patent",
@@ -658,7 +658,7 @@
                     "public_url": "https://bumps-demo-20221110.nikepai.com/page/paper",
                     "tags": [
                         "International ",
-                        "knowledge complexity",
+                        "Knowledge complexity",
                         "OpenAlex"
                     ],
                     "tags_bak": [
@@ -696,8 +696,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/browser/WikiTree",
                     "tags": [
-                        "subjects",
-                        "category trees",
+                        "Subjects",
+                        "Category trees",
                         "Wikipedia"
                     ],
                     "tags_bak": [
@@ -735,7 +735,7 @@
                     ],
                     "public_url": "https://kdocs.cn/l/cvt2FRmbhgWq",
                     "tags": [
-                        "data"
+                        "Data"
                     ],
                     "tags_bak": [
                         "data"
@@ -769,7 +769,7 @@
                     ],
                     "public_url": "https://kdocs.cn/l/ct2SdvmtRPep",
                     "tags": [
-                        "article"
+                        "Article"
                     ],
                     "tags_bak": [
                         "article"
@@ -803,7 +803,7 @@
                     ],
                     "public_url": "https://kdocs.cn/l/cmXscVtAQdiX",
                     "tags": [
-                        "article"
+                        "Article"
                     ],
                     "tags_bak": [
                         "article"
@@ -837,7 +837,7 @@
                     ],
                     "public_url": "https://kdocs.cn/l/coyVmA6popgw",
                     "tags": [
-                        "data"
+                        "Data"
                     ],
                     "tags_bak": [
                         "data"
@@ -871,9 +871,9 @@
                     ],
                     "public_url": "https://kdocs.cn/l/cpuRuteeJDBB",
                     "tags": [
-                        "data",
+                        "Data",
                         "MAG",
-                        "patents",
+                        "Patents",
                         "Wikipedia"
                     ],
                     "tags_bak": [
@@ -911,7 +911,7 @@
                     "tags": [
                         "OpenAlex",
                         "International ",
-                        "trend charts"
+                        "Trend charts"
                     ],
                     "tags_o": [
                         "2",
@@ -943,7 +943,7 @@
                     "tags": [
                         "OpenAlex",
                         "International ",
-                        "trend charts"
+                        "Trend charts"
                     ],
                     "tags_o": [
                         "2",
@@ -975,7 +975,7 @@
                     "tags": [
                         "OpenAlex",
                         "International ",
-                        "trend charts"
+                        "Trend charts"
                     ],
                     "tags_o": [
                         "2",
@@ -1007,7 +1007,7 @@
                     "tags": [
                         "OpenAlex",
                         "International ",
-                        "trend charts"
+                        "Trend charts"
                     ],
                     "tags_o": [
                         "2",
@@ -1038,8 +1038,8 @@
                     "public_url": "https://chart-demo-20111111.nikepai.com/charts/china-us-compare-patent-1",
                     "tags": [
                         "International ",
-                        "trend charts",
-                        "patents"
+                        "Trend charts",
+                        "Patents"
                     ],
                     "tags_o": [
                         "BF",
@@ -1070,8 +1070,8 @@
                     "public_url": "https://chart-demo-20111111.nikepai.com/charts/china-us-compare-patent-2",
                     "tags": [
                         "International ",
-                        "trend charts",
-                        "patents"
+                        "Trend charts",
+                        "Patents"
                     ],
                     "tags_o": [
                         "BF",
@@ -1102,8 +1102,8 @@
                     "public_url": "https://chart-demo-20111111.nikepai.com/charts/china-us-compare-patent-3",
                     "tags": [
                         "International ",
-                        "trend charts",
-                        "patents"
+                        "Trend charts",
+                        "Patents"
                     ],
                     "tags_o": [
                         "BF",
@@ -1133,8 +1133,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia-build/WikiGoogleDistance",
                     "tags": [
-                        "trend charts",
-                        "subjects",
+                        "Trend charts",
+                        "Subjects",
                         "Google Distance",
                         "Wikipedia"
                     ],
@@ -1167,8 +1167,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia/DisciplineCore?version=v5_new",
                     "tags": [
-                        "trend charts",
-                        "subjects",
+                        "Trend charts",
+                        "Subjects",
                         "Google Distance",
                         "Wikipedia"
                     ],
@@ -1201,10 +1201,10 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia/disciplinePeople",
                     "tags": [
-                        "trend charts",
+                        "Trend charts",
                         "Google Distance",
-                        "people",
-                        "subjects",
+                        "People",
+                        "Subjects",
                         "Wikipedia"
                     ],
                     "tags_o": [
@@ -1237,8 +1237,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/mag2020/GoogleDistance",
                     "tags": [
-                        "trend charts",
-                        "subjects",
+                        "Trend charts",
+                        "Subjects",
                         "Google Distance",
                         "MAG"
                     ],
@@ -1271,8 +1271,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/mag2020/MagGoogleDistance_2020_V3",
                     "tags": [
-                        "trend charts",
-                        "subjects",
+                        "Trend charts",
+                        "Subjects",
                         "Google Distance",
                         "MAG"
                     ],
@@ -1305,8 +1305,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/mag2020/MagPlantDistance",
                     "tags": [
-                        "trend charts",
-                        "subjects",
+                        "Trend charts",
+                        "Subjects",
                         "Google Distance",
                         "MAG"
                     ],
@@ -1339,8 +1339,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/wm/GoogleDistance",
                     "tags": [
-                        "trend charts",
-                        "subjects",
+                        "Trend charts",
+                        "Subjects",
                         "Google Distance",
                         "MAG"
                     ],
@@ -1373,8 +1373,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/wm/WMGoogleDistance_2020_V3",
                     "tags": [
-                        "trend charts",
-                        "subjects",
+                        "Trend charts",
+                        "Subjects",
                         "Google Distance",
                         "MAG"
                     ],
@@ -1409,9 +1409,9 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia/WikiAndMagCountByYear",
                     "tags": [
-                        "trend charts",
-                        "subjects",
-                        "stats",
+                        "Trend charts",
+                        "Subjects",
+                        "Stats",
                         "MAG",
                         "Wikipedia"
                     ],
@@ -1445,9 +1445,9 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia-build/ArticlesTotal",
                     "tags": [
-                        "trend charts",
-                        "subjects",
-                        "stats",
+                        "Trend charts",
+                        "Subjects",
+                        "Stats",
                         "Wikipedia"
                     ],
                     "tags_o": [
@@ -1481,8 +1481,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia/WikiAndMagCountByYear",
                     "tags": [
-                        "trend charts",
-                        "stats",
+                        "Trend charts",
+                        "Stats",
                         "MAG",
                         "Wikipedia"
                     ],
@@ -1515,8 +1515,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v2/demo/openalex/node-edges",
                     "tags": [
-                        "trend charts",
-                        "stats",
+                        "Trend charts",
+                        "Stats",
                         "OpenAlex"
                     ],
                     "tags_o": [
@@ -1547,7 +1547,7 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v2/demo/openalex/reference-stats",
                     "tags": [
-                        "trend charts",
+                        "Trend charts",
                         "OpenAlex",
                         "International "
                     ],
@@ -1579,7 +1579,7 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v2/demo/openalex/subject-google-distance-2022",
                     "tags": [
-                        "trend charts",
+                        "Trend charts",
                         "OpenAlex",
                         "International ",
                         "Google Distance"
@@ -1613,8 +1613,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia-build/Xueke_words_linksout",
                     "tags": [
-                        "trend charts",
-                        "stats",
+                        "Trend charts",
+                        "Stats",
                         "Wikipedia"
                     ],
                     "tags_o": [
@@ -1645,8 +1645,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia/ViewAndEdits",
                     "tags": [
-                        "trend charts",
-                        "stats",
+                        "Trend charts",
+                        "Stats",
                         "Wikipedia"
                     ],
                     "tags_o": [
@@ -1677,8 +1677,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/wm/AuthorsAndArticleInfoByYear",
                     "tags": [
-                        "trend charts",
-                        "stats",
+                        "Trend charts",
+                        "Stats",
                         "MAG"
                     ],
                     "tags_o": [
@@ -1709,8 +1709,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/mag2020/AuthorsAndArticleInfoByYear",
                     "tags": [
-                        "trend charts",
-                        "stats",
+                        "Trend charts",
+                        "Stats",
                         "MAG"
                     ],
                     "tags_o": [
@@ -1741,8 +1741,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia-build/wikipediaNetworkEntropy",
                     "tags": [
-                        "entropy",
-                        "trend charts",
+                        "Entropy",
+                        "Trend charts",
                         "Wikipedia"
                     ],
                     "tags_o": [
@@ -1773,8 +1773,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/mag2020/networkEntropy",
                     "tags": [
-                        "entropy",
-                        "trend charts",
+                        "Entropy",
+                        "Trend charts",
                         "MAG"
                     ],
                     "tags_o": [
@@ -1805,8 +1805,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v2/demo/mag/e1200-entropy",
                     "tags": [
-                        "entropy",
-                        "trend charts",
+                        "Entropy",
+                        "Trend charts",
                         "MAG"
                     ],
                     "tags_o": [
@@ -1837,8 +1837,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia-build/wikipediaEntropy",
                     "tags": [
-                        "entropy",
-                        "trend charts",
+                        "Entropy",
+                        "Trend charts",
                         "Wikipedia"
                     ],
                     "tags_o": [
@@ -1869,8 +1869,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/mag2020/entropy",
                     "tags": [
-                        "entropy",
-                        "trend charts",
+                        "Entropy",
+                        "Trend charts",
                         "MAG"
                     ],
                     "tags_o": [
@@ -1901,8 +1901,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/mag2020/MAGSubjectEntropy",
                     "tags": [
-                        "entropy",
-                        "trend charts",
+                        "Entropy",
+                        "Trend charts",
                         "MAG"
                     ],
                     "tags_o": [
@@ -1933,8 +1933,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia/SmallWorldUndirected",
                     "tags": [
-                        "trend charts",
-                        "small world",
+                        "Trend charts",
+                        "Small world",
                         "Wikipedia"
                     ],
                     "tags_o": [
@@ -1965,8 +1965,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia/SmallWorldUndirectedLimit",
                     "tags": [
-                        "trend charts",
-                        "small world",
+                        "Trend charts",
+                        "Small world",
                         "Wikipedia"
                     ],
                     "tags_o": [
@@ -1997,8 +1997,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia/CoreSWUndirectLimit",
                     "tags": [
-                        "trend charts",
-                        "small world",
+                        "Trend charts",
+                        "Small world",
                         "Wikipedia"
                     ],
                     "tags_o": [
@@ -2029,8 +2029,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia/CoreSMUndirected",
                     "tags": [
-                        "trend charts",
-                        "small world",
+                        "Trend charts",
+                        "Small world",
                         "Wikipedia"
                     ],
                     "tags_o": [
@@ -2061,8 +2061,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia-build/CoreZipfByNodes_wiki",
                     "tags": [
-                        "subjects",
-                        "power law",
+                        "Subjects",
+                        "Power law",
                         "Wikipedia"
                     ],
                     "tags_o": [
@@ -2093,8 +2093,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia-build/DegreeDistribution",
                     "tags": [
-                        "subjects",
-                        "power law",
+                        "Subjects",
+                        "Power law",
                         "Wikipedia"
                     ],
                     "tags_o": [
@@ -2125,8 +2125,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/mag2020/ZipfAndInnerzipfByYearv3",
                     "tags": [
-                        "subjects",
-                        "power law",
+                        "Subjects",
+                        "Power law",
                         "MAG"
                     ],
                     "tags_o": [
@@ -2157,8 +2157,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v2/demo/openalex/power-law-2022?tab=a",
                     "tags": [
-                        "subjects",
-                        "power law",
+                        "Subjects",
+                        "Power law",
                         "OpenAlex"
                     ],
                     "tags_o": [
@@ -2189,8 +2189,8 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v1/browser/BritannicaTree",
                     "tags": [
-                        "subjects",
-                        "category trees"
+                        "Subjects",
+                        "Category trees"
                     ],
                     "tags_o": [
                         "6",
@@ -2219,7 +2219,7 @@
                     ],
                     "public_url": "https://wiki.nikepai.com/v2/note/gird-index-1",
                     "tags": [
-                        "other"
+                        "Other"
                     ],
                     "tags_o": [
                         "CB"

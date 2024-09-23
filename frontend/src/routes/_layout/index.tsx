@@ -1,4 +1,5 @@
-import { Container, Flex, Text, Link, useColorModeValue } from "@chakra-ui/react"
+import { ExternalLinkIcon } from "@chakra-ui/icons"
+import { Container, Flex, Text, Link, useColorModeValue, Card, CardBody, CardHeader, Heading, TagLabel, Box, LinkBox, LinkOverlay } from "@chakra-ui/react"
 import { createFileRoute } from "@tanstack/react-router"
 
 
@@ -43,7 +44,7 @@ const indexTree = [
   {
     title: "Code",
     search: {
-      tags: ['github'],
+      tags: ['Github'],
       title: "Code",
     },
   },
@@ -55,6 +56,28 @@ const indexTree = [
     },
   },
 ]
+
+const categories = [
+  {
+    name: '数据图表', links: [
+      { title: '销售数据', url: '/sales' },
+      { title: '用户增长', url: '/user-growth' },
+      { title: '市场份额', url: '/market-share' },
+    ]
+  },
+  {
+    name: '财务报告', links: [
+      { title: '季度报告', url: '/quarterly-report' },
+      { title: '年度预算', url: '/annual-budget' },
+    ]
+  },
+  {
+    name: '项目管理', links: [
+      { title: '甘特图', url: '/gantt-chart' },
+      { title: '任务看板', url: '/task-board' },
+    ]
+  },
+];
 
 
 function PageIndex() {
@@ -75,6 +98,29 @@ function PageIndex() {
             </Flex>
           ))
         }
+        {/* <Container boxShadow="lg" variant="elevated" rounded='lg' p="5" maxW="98%" mt="20">
+          <Text fontSize="4xl"> Data Source</Text>
+          <Flex align="center" justify="center" >
+            {
+              indexTree.map((item, index) => (
+                <LinkBox as='article' maxW='sm' p='5' borderWidth='1px' rounded='md' m="5">
+
+                  <Heading size='md' my='2'>
+                    <LinkOverlay as={RouterLink} to="/page"
+                      search={item.search}
+                    >
+                      {item.title}
+                    </LinkOverlay>
+                  </Heading>
+                  <Text>
+
+                  </Text>
+                </LinkBox>
+              ))
+            }
+          </Flex>
+        </Container> */}
+
       </Container>
     </>
   )
