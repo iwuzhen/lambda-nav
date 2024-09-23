@@ -15,7 +15,7 @@ import {
     MenuItem,
     MenuList
 } from '@chakra-ui/react';
-import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
+import { HamburgerIcon, CloseIcon, ExternalLinkIcon } from '@chakra-ui/icons';
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
 import Logo from "/assets/images/knogen-log.svg"
 
@@ -30,6 +30,7 @@ type NavMenuItem = {
     id: string;
     to?: string;
     search?: any;
+    externalLink?: boolean;
     children?: NavMenuItem[];
 }
 
@@ -76,7 +77,7 @@ function MenuRender({ menuData }: { menuData: NavMenuItem[] }) {
                         <MenuList>
                             {item.children?.map(child => (
                                 <MenuItem key={child.id} minH='48px' as={RouterLink} to={child.to} search={child.search} >
-                                    <span>{child.title}</span>
+                                    <span>{child.title}</span> {child.externalLink && <ExternalLinkIcon mx={4} w={3} h={3} />}
                                 </MenuItem>
                             ))}
                         </MenuList>

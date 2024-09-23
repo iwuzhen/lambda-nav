@@ -1,4 +1,4 @@
-import { ExternalLinkIcon } from "@chakra-ui/icons"
+import { ExternalLinkIcon, InfoOutlineIcon } from "@chakra-ui/icons"
 import data from "./data.json"
 import {
     Card, CardHeader, CardBody, Text, Link, Heading, Button, Tag,
@@ -8,7 +8,8 @@ import {
     AccordionIcon,
     AccordionItem,
     AccordionPanel,
-    Badge
+    Badge,
+    Tooltip
 } from '@chakra-ui/react'
 import { Flex, Spacer } from '@chakra-ui/react'
 
@@ -126,6 +127,22 @@ function prioritizeTags(a: string[], b: string[]): string[] {
 
 function SearchPageView({ searchParameter }: { searchParameter: PageQueryWithoutTitle, }) {
 
+    // build tags, origins, views abstract
+    const tagAbstractMap = new Map<string, string>();
+    data.tag.records.forEach(item => {
+        tagAbstractMap.set(item.fields.title, item.fields.abstract)
+    })
+
+    const viewAbstractMap = new Map<string, string>();
+    data.view.records.forEach(item => {
+        viewAbstractMap.set(item.fields.title, item.fields.abstract)
+    })
+
+    const originAbstractMap = new Map<string, string>();
+    data.origin.records.forEach(item => {
+        originAbstractMap.set(item.fields.title, item.fields.abstract)
+    })
+
     // 查询过滤
     let filterData = externalPageList.sort((a, b) => b.weight - a.weight);
 
@@ -192,7 +209,6 @@ function SearchPageView({ searchParameter }: { searchParameter: PageQueryWithout
         })
         highTags.push(...(checkedTagItems as string[]))
 
-
         filterData = filterData.sort((a, b) => {
             // 计算每个对象的 tags 匹配数量
             const aMatchCount = a.tags.filter(tag => checkedTagItems.includes(tag)).length;
@@ -203,18 +219,56 @@ function SearchPageView({ searchParameter }: { searchParameter: PageQueryWithout
                 return bMatchCount - aMatchCount; // 降序
             }
 
+            const lastCheckedTag = checkedTagItems.slice(-1)[0]
+
+            // 首先根据匹配数量排序
+            if (a.tags.includes(lastCheckedTag as string)) {
+                return -1; // 降序
+            } else if (b.tags.includes(lastCheckedTag as string)) {
+                return 1; // 降序
+            }
+
             // 如果匹配数量相同，则根据 weight 排序
             return b.weight - a.weight; // 降序
         });
     }
 
+    const AccordionFilterRander = (obj: { title: string, frequence: [string, number][], checkboxProps: any, abstractMap: Map<string, string> },) => (
+        <AccordionItem>
+            <h2>
+                <AccordionButton>
+                    <Box as='span' flex='1' textAlign='left'>
+                        {obj.title}
+                    </Box>
+                    <AccordionIcon />
+                </AccordionButton>
+            </h2>
+            <AccordionPanel pb={4}>
+                <VStack spacing={[3, 3]} direction={['column', 'row']} ml="0" alignItems={'start'}>
+                    {
+                        obj.frequence.map(([title, count], index) => (
+                            <Checkbox {...obj.checkboxProps({ value: title })} key={`${index}_cb`} size='lg' >
+                                {title}
+                                {count > 1 && <Badge ml='1' key={`${index}_bd`}>{count}</Badge>}
 
+                                <Tooltip label={obj.abstractMap.get(title)} placement='auto-end' key={`${index}_tp`}>
+                                    < InfoOutlineIcon w={2} h={2} ml={4} pt={0} pl={0} key={`${index}_II`} />
+                                </Tooltip>
+                            </Checkbox>
+
+                        ))
+
+                    }
+
+                </VStack>
+            </AccordionPanel>
+        </AccordionItem>
+    )
 
 
     return (
         <Flex wrap="wrap" direction={{ base: 'column', md: 'row' }} mt={14}>
             <Flex flex={3} maxW={"320px"}>
-
                 <VStack alignItems={'start'} w="100%" >
                     <Flex w="100%">
                         <Text fontSize="3xl">Filters</Text>
@@ -226,79 +280,15 @@ function SearchPageView({ searchParameter }: { searchParameter: PageQueryWithout
                         </Button>
                     </Flex>
                     <Accordion defaultIndex={[0,]} allowMultiple w="100%">
-                        <AccordionItem>
-                            <h2>
-                                <AccordionButton>
-                                    <Box as='span' flex='1' textAlign='left'>
-                                        Tags
-                                    </Box>
-                                    <AccordionIcon />
-                                </AccordionButton>
-                            </h2>
-                            <AccordionPanel pb={4}>
-                                <VStack spacing={[3, 3]} direction={['column', 'row']} ml="0" alignItems={'start'}>
-                                    {
-                                        tagFrequence.map(([title, count], index) => (
-                                            <Checkbox {...getTagCheckGroupProps({ value: title })} key={index} size='lg' >
-                                                {title}
-                                                {count > 1 && <Badge ml='1'>{count}</Badge>}
-                                            </Checkbox>
-                                        ))
-                                    }
-                                </VStack>
-                            </AccordionPanel>
-                        </AccordionItem>
+                        <AccordionFilterRander title="Tags" frequence={tagFrequence} checkboxProps={getTagCheckGroupProps} abstractMap={tagAbstractMap} />
+                        <AccordionFilterRander title="Views" frequence={viewFrequence} checkboxProps={getViewCheckGroupProps} abstractMap={viewAbstractMap} />
+                        <AccordionFilterRander title="Origins" frequence={originFrequence} checkboxProps={getOriginCheckGroupProps} abstractMap={originAbstractMap} />
 
-                        <AccordionItem>
-                            <h2>
-                                <AccordionButton>
-                                    <Box as='span' flex='1' textAlign='left'>
-                                        Origins
-                                    </Box>
-                                    <AccordionIcon />
-                                </AccordionButton>
-                            </h2>
-                            <AccordionPanel pb={4}>
-                                <VStack spacing={[3, 3]} direction={['column', 'row']} ml="0" alignItems={'start'}>
-                                    {
-                                        originFrequence.map(([title, count], index) => (
-                                            <Checkbox {...getOriginCheckGroupProps({ value: title })} key={index} size='lg' >
-                                                {title}
-                                                {count > 1 && <Badge ml='1'>{count}</Badge>}
-                                            </Checkbox>
-                                        ))
-                                    }
-                                </VStack>
-                            </AccordionPanel>
-                        </AccordionItem>
-
-                        <AccordionItem>
-                            <h2>
-                                <AccordionButton>
-                                    <Box as='span' flex='1' textAlign='left'>
-                                        Views
-                                    </Box>
-                                    <AccordionIcon />
-                                </AccordionButton>
-                            </h2>
-                            <AccordionPanel pb={4}>
-                                <VStack spacing={[3, 3]} direction={['column', 'row']} ml="0" alignItems={'start'}>
-                                    {
-                                        viewFrequence.map(([title, count], index) => (
-                                            <Checkbox {...getViewCheckGroupProps({ value: title })} key={index} size='lg' >
-                                                {title}
-                                                {count > 1 && <Badge ml='1'>{count}</Badge>}
-                                            </Checkbox>
-                                        ))
-                                    }
-                                </VStack>
-                            </AccordionPanel>
-                        </AccordionItem>
                     </Accordion>
 
                 </VStack>
             </Flex>
-            <Flex flex={7} wrap="wrap">
+            <Flex flex={7} wrap="wrap" h="fit-content">
                 <AnimatePresence >
                     {filterData.map((item) => (
                         <MotionCard key={item.title}
@@ -312,7 +302,7 @@ function SearchPageView({ searchParameter }: { searchParameter: PageQueryWithout
                             <CardHeader>
                                 <Heading size='md'>
                                     <Link href={item.public_url} isExternal>
-                                        {item.title} <ExternalLinkIcon mx='2px' />
+                                        {item.title} <ExternalLinkIcon mx='2px' w={3} h={3} />
                                     </Link>
                                 </Heading>
                             </CardHeader>

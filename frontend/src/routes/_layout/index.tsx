@@ -13,16 +13,16 @@ export const Route = createFileRoute("/_layout/")({
 
 const indexTree = [
   {
-    title: "Paper",
+    title: "Academic Publications",
     search: {
-      origin: ['paper'],
-      title: "Paper",
+      origin: ['Academic Publications'],
+      title: "Academic Publications",
     },
   },
   {
     title: "Wikipedia",
     search: {
-      tags: ['wikipedia'],
+      tags: ['Wikipedia'],
       title: "Wikipedia",
     },
   },
@@ -34,10 +34,10 @@ const indexTree = [
     },
   },
   {
-    title: "Patent",
+    title: "Patents",
     search: {
-      origin: ['patent'],
-      title: "Patent",
+      origin: ['Patents'],
+      title: "Patents",
     },
   },
   {
@@ -50,7 +50,7 @@ const indexTree = [
   {
     title: "Other",
     search: {
-      origin: ['other'],
+      origin: ['Others'],
       title: "Other",
     },
   },
