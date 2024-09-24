@@ -31,9 +31,15 @@
                 "id": "entropy"
             },
             {
-                "title": "表格导航",
+                "title": "趋势归纳- 表格导航",
                 "to": "https://wiki.nikepai.com/v2/note/gird-index-1",
-                "id": "数据总结",
+                "id": "趋势归纳- 表格导航",
+                "externalLink": true
+            },
+            {
+                "title": "由你排 2020 世界大学排名 ",
+                "to": "https://rank.unirank.net/index",
+                "id": "由你排 2020 世界大学排名 ",
                 "externalLink": true
             }
         ]

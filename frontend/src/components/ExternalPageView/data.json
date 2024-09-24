@@ -2209,7 +2209,7 @@
             },
             {
                 "fields": {
-                    "abstract": "数据规律趋势表格",
+                    "abstract": "各种数据的趋势拟合, 使用二维表格总结归纳.",
                     "create_at": "2024/09/12",
                     "origin": [
                         "Websites"
@@ -2224,7 +2224,7 @@
                     "tags_o": [
                         "CB"
                     ],
-                    "title": "表格导航",
+                    "title": "趋势归纳- 表格导航",
                     "view": [
                         "Websites"
                     ],
@@ -2234,6 +2234,34 @@
                     "weight": 100
                 },
                 "id": "B-"
+            },
+            {
+                "fields": {
+                    "abstract": "\"由你排\"2020年世界大学排名，个性化定制，涵盖学术、声誉、师资等多维度。",
+                    "create_at": "2024/09/24",
+                    "origin": [
+                        "Websites"
+                    ],
+                    "origin_o": [
+                        "B_"
+                    ],
+                    "public_url": "https://rank.unirank.net/index",
+                    "tags": [
+                        "Other"
+                    ],
+                    "tags_o": [
+                        "CB"
+                    ],
+                    "title": "由你排 2020 世界大学排名",
+                    "view": [
+                        "Websites"
+                    ],
+                    "view_o": [
+                        "CA"
+                    ],
+                    "weight": 100
+                },
+                "id": "CH"
             }
         ]
     }
