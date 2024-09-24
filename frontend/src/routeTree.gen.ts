@@ -20,6 +20,7 @@ import { Route as AdminImport } from './routes/_admin'
 import { Route as LayoutIndexImport } from './routes/_layout/index'
 import { Route as LayoutPageImport } from './routes/_layout/page'
 import { Route as LayoutExplorerImport } from './routes/_layout/explorer'
+import { Route as LayoutAboutImport } from './routes/_layout/about'
 import { Route as AdminAdminSettingsImport } from './routes/_admin/admin/settings'
 import { Route as AdminAdminPageTagsImport } from './routes/_admin/admin/pageTags'
 import { Route as AdminAdminItemsImport } from './routes/_admin/admin/items'
@@ -71,6 +72,11 @@ const LayoutPageRoute = LayoutPageImport.update({
 
 const LayoutExplorerRoute = LayoutExplorerImport.update({
   path: '/explorer',
+  getParentRoute: () => LayoutRoute,
+} as any)
+
+const LayoutAboutRoute = LayoutAboutImport.update({
+  path: '/about',
   getParentRoute: () => LayoutRoute,
 } as any)
 
@@ -132,6 +138,10 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SignupImport
       parentRoute: typeof rootRoute
     }
+    '/_layout/about': {
+      preLoaderRoute: typeof LayoutAboutImport
+      parentRoute: typeof LayoutImport
+    }
     '/_layout/explorer': {
       preLoaderRoute: typeof LayoutExplorerImport
       parentRoute: typeof LayoutImport
@@ -183,6 +193,7 @@ export const routeTree = rootRoute.addChildren([
     AdminAdminSettingsRoute,
   ]),
   LayoutRoute.addChildren([
+    LayoutAboutRoute,
     LayoutExplorerRoute,
     LayoutPageRoute,
     LayoutIndexRoute,

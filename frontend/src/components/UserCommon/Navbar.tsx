@@ -55,6 +55,7 @@ function MenuRender({ menuData }: { menuData: NavMenuItem[] }) {
                                 >
                                     {item.title}
                                 </MenuButton>
+
                             </RouterLink>
                         </Menu >
                     )
@@ -84,9 +85,25 @@ function MenuRender({ menuData }: { menuData: NavMenuItem[] }) {
                     </Menu >
                 )
             })
-
-
         }
+            <Menu >
+                <RouterLink to="/about">
+                    <MenuButton as={Button}
+                        transition='all 0.2s'
+                        borderRadius='md'
+                        bg="rgba(255, 255, 255, 0);"
+                        _hover={{
+                            textDecoration: 'none',
+                            bg: useColorModeValue('gray.500', 'gray.700'),
+                        }}
+                        _expanded={{ bg: 'gray.400' }}
+                        _focus={{ boxShadow: 'outline' }}
+                    >
+                        About
+                    </MenuButton>
+
+                </RouterLink>
+            </Menu >
         </>
     )
 }
@@ -117,33 +134,6 @@ const NavBar: React.FC = () => {
                         spacing={4}
                         display={{ base: 'none', md: 'flex' }}
                     >
-                        {/* {['About', 'Contact', 'FAQ'].map((link) => (
-                            <Link as={RouterLink}
-                                px={2}
-                                py={1}
-                                rounded={'md'}
-                                _hover={{
-                                    textDecoration: 'none',
-                                    bg: useColorModeValue('gray.500', 'gray.700'),
-                                }}
-                                key={link}
-                                to="/"
-                            >
-                                {link}
-                            </Link>
-                        ))}
-                        <Link as={RouterLink}
-                            px={2}
-                            py={1}
-                            rounded={'md'}
-                            _hover={{
-                                textDecoration: 'none',
-                                bg: useColorModeValue('gray.500', 'gray.700'),
-                            }}
-                            to="/explor"
-                        >
-                            Explorer
-                        </Link> */}
                         <MenuRender menuData={navbarData} />
                     </HStack>
                 </HStack>
@@ -155,34 +145,6 @@ const NavBar: React.FC = () => {
             {isOpen ? (
                 <Box pb={4} display={['inherit', 'inherit', 'none']}>
                     <HStack as={'nav'} spacing={4}>
-                        {/* {['About', 'Contact', 'FAQ'].map((link) => (
-                            <Link
-                                px={2}
-                                py={1}
-                                rounded={'md'}
-                                _hover={{
-                                    textDecoration: 'none',
-                                    bg: useColorModeValue('gray.500', 'gray.700'),
-                                }}
-                                key={link}
-                                href={'#'}
-                            >
-                                {link}
-                            </Link>
-                        ))}
-                        <Link as={RouterLink}
-                            px={2}
-                            py={1}
-                            rounded={'md'}
-                            _hover={{
-                                textDecoration: 'none',
-                                bg: useColorModeValue('gray.500', 'gray.700'),
-                            }}
-                            to="/explor"
-                        >
-                            Explorer
-                        </Link> */}
-
                         <MenuRender menuData={navbarData} />
                     </HStack>
                 </Box>
