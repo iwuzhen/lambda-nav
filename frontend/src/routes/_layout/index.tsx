@@ -30,7 +30,7 @@ const indexTree = [
   },
   {
     title: "Wikipedia",
-    describe: "Wikipedia 有学科树、文章数、访问次数等统计数据，还有学科相关度、度分布熵、结构熵等指标，以及学科网络统计趋势和幂律变化等，涵盖多个研究领域，为知识体系架构提供有价值的参考。",
+    describe: "Wikipedia 有学科树、文章数、访问次数等统计数据，还有学科相关度、度分布熵、结构熵等指标，以及学科网络统计趋势和幂律变化等，包含知识体系架构，涵盖多个研究领域",
     search: {
       tags: ['Wikipedia'],
       title: "Wikipedia",
@@ -46,7 +46,7 @@ const indexTree = [
   },
   {
     title: "Patents",
-    describe: "Patents 包括 IPC 查询工具，以及知识复杂度（专利）的研究。还有中美不同地区及城市专利数比较，涵盖国际范围，为专利研究提供数据支持，助力了解专利领域发展动态及区域差异。",
+    describe: "Patents 包括 IPC 查询工具，以及知识复杂度（专利）的研究。还有中美不同地区及城市专利数比较、专利领域发展动态及区域差异，涵盖国际范围。",
     search: {
       origin: ['Patents'],
       title: "Patents",
