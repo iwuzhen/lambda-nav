@@ -244,14 +244,14 @@ function SearchPageView({ searchParameter }: { searchParameter: PageQueryWithout
                 </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-                <VStack spacing={[3, 3]} direction={['column', 'row']} ml="0" alignItems={'start'}>
+                <VStack spacing={[3, 0]} direction={['column', 'row']} ml="0" alignItems={'start'}>
                     {
                         obj.frequence.map(([title, count], index) => (
-                            <Checkbox {...obj.checkboxProps({ value: title })} key={`${index}_cb`} size='lg' >
+                            <Checkbox {...obj.checkboxProps({ value: title })} key={`${index}_cb`} size='md' >
                                 {title}
                                 {count > 1 && <Badge ml='1' key={`${index}_bd`}>{count}</Badge>}
 
-                                <Tooltip label={obj.abstractMap.get(title)} placement='auto-end' key={`${index}_tp`}>
+                                <Tooltip label={obj.abstractMap.get(title)} placement='auto' key={`${index}_tp`}>
                                     < InfoOutlineIcon w={2} h={2} ml={4} pt={0} pl={0} key={`${index}_II`} />
                                 </Tooltip>
                             </Checkbox>
@@ -268,26 +268,7 @@ function SearchPageView({ searchParameter }: { searchParameter: PageQueryWithout
 
     return (
         <Flex wrap="wrap" direction={{ base: 'column', md: 'row' }} mt={14}>
-            <Flex flex={3} maxW={"320px"}>
-                <VStack alignItems={'start'} w="100%" >
-                    <Flex w="100%">
-                        <Text fontSize="3xl">Filters</Text>
-                        <Spacer />
-                        <Button variant='link'
-                            onClick={() => { setCheckedTagItems([]); setCheckedOriginItems([]); setCheckedViewItems([]); }}
-                        >
-                            <Text fontSize="sm">CLEAR ALL</Text>
-                        </Button>
-                    </Flex>
-                    <Accordion defaultIndex={[0,]} allowMultiple w="100%">
-                        <AccordionFilterRander title="Tags" frequence={tagFrequence} checkboxProps={getTagCheckGroupProps} abstractMap={tagAbstractMap} />
-                        <AccordionFilterRander title="Views" frequence={viewFrequence} checkboxProps={getViewCheckGroupProps} abstractMap={viewAbstractMap} />
-                        <AccordionFilterRander title="Origins" frequence={originFrequence} checkboxProps={getOriginCheckGroupProps} abstractMap={originAbstractMap} />
 
-                    </Accordion>
-
-                </VStack>
-            </Flex>
             <Flex flex={7} wrap="wrap" h="fit-content">
                 <AnimatePresence >
                     {filterData.map((item) => (
@@ -330,6 +311,26 @@ function SearchPageView({ searchParameter }: { searchParameter: PageQueryWithout
                     ))
                     }
                 </AnimatePresence>
+            </Flex>
+            <Flex flex={3} maxW={"320px"}>
+                <VStack alignItems={'start'} w="100%" >
+                    <Flex w="100%">
+                        <Text fontSize="2xl">Filters</Text>
+                        <Spacer />
+                        <Button variant='link'
+                            onClick={() => { setCheckedTagItems([]); setCheckedOriginItems([]); setCheckedViewItems([]); }}
+                        >
+                            <Text fontSize="sm">CLEAR ALL</Text>
+                        </Button>
+                    </Flex>
+                    <Accordion defaultIndex={[0,]} allowMultiple w="100%">
+                        <AccordionFilterRander title="Tags" frequence={tagFrequence} checkboxProps={getTagCheckGroupProps} abstractMap={tagAbstractMap} />
+                        <AccordionFilterRander title="Views" frequence={viewFrequence} checkboxProps={getViewCheckGroupProps} abstractMap={viewAbstractMap} />
+                        <AccordionFilterRander title="Origins" frequence={originFrequence} checkboxProps={getOriginCheckGroupProps} abstractMap={originAbstractMap} />
+
+                    </Accordion>
+
+                </VStack>
             </Flex>
         </Flex >
     )

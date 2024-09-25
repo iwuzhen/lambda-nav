@@ -9,7 +9,7 @@
         "id": "topic",
         "children": [
             {
-                "title": "Category Tree",
+                "title": "Category Browser",
                 "to": "/page",
                 "search": {
                     "tags": [
@@ -37,9 +37,9 @@
                 "externalLink": true
             },
             {
-                "title": "由你排 2020 世界大学排名 ",
+                "title": "2020 世界大学排名 ",
                 "to": "https://rank.unirank.net/index",
-                "id": "由你排 2020 世界大学排名 ",
+                "id": "2020 世界大学排名 ",
                 "externalLink": true
             }
         ]
