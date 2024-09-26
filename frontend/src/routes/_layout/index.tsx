@@ -38,7 +38,7 @@ const indexTree = [
   },
   {
     title: "Encyclopædia Britannica",
-    describe: "这里有大英百科全书 Category 树。",
+    describe: "包括大英百科全书 Category 树。",
     search: {
       origin: ['Encyclopædia Britannica'],
       title: "Encyclopædia Britannica",
