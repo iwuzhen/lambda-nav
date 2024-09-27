@@ -4,9 +4,7 @@
             {
                 "fields": {
                     "abstract": "Tree diagrams can clearly display classification hierarchies",
-                    "description": "Tree diagrams can clearly display classification hierarchies",
                     "title": "Tree views",
-                    "update_at": "2024/09/05 14:19:55",
                     "weight": 100
                 },
                 "id": "x"
@@ -14,9 +12,7 @@
             {
                 "fields": {
                     "abstract": "Network diagrams can display the distances and relationships between nodes.",
-                    "description": "Network diagrams can display the distances and relationships between nodes.",
                     "title": "Graphs",
-                    "update_at": "2024/09/05 14:19:59",
                     "weight": 100
                 },
                 "id": "y"
@@ -24,9 +20,7 @@
             {
                 "fields": {
                     "abstract": "A bump chart is a type of data visualization that displays the ranking of items over time. It is particularly useful for showing how the positions of different categories change relative to each other across a series of time periods.",
-                    "description": "A bump chart is a type of data visualization that displays the ranking of items over time. It is particularly useful for showing how the positions of different categories change relative to each other across a series of time periods.",
                     "title": "Bump charts",
-                    "update_at": "2024/09/05 14:20:03",
                     "weight": 100
                 },
                 "id": "z"
@@ -34,9 +28,7 @@
             {
                 "fields": {
                     "abstract": "Be presented in common document formats like doc, xlsx, ppt and so on.",
-                    "description": "Be presented in common document formats like doc, xlsx, ppt and so on.",
                     "title": "Documentation",
-                    "update_at": "2024/09/05 16:21:33",
                     "weight": 100
                 },
                 "id": "8"
@@ -44,9 +36,7 @@
             {
                 "fields": {
                     "abstract": "Map-based data",
-                    "description": "Map-based data",
                     "title": "Maps",
-                    "update_at": "2024/09/11 02:58:45",
                     "weight": 100
                 },
                 "id": "BM"
@@ -54,9 +44,7 @@
             {
                 "fields": {
                     "abstract": "Common data charts such as line charts, pie charts, etc.",
-                    "description": "Common data charts such as line charts, pie charts, etc.",
                     "title": "Charts",
-                    "update_at": "2024/09/11 12:11:38",
                     "weight": 100
                 },
                 "id": "BV"
@@ -64,9 +52,7 @@
             {
                 "fields": {
                     "abstract": " Other resources from websites",
-                    "description": " Other resources from websites",
                     "title": "Websites",
-                    "update_at": "2024/09/12 14:05:08",
                     "weight": 100
                 },
                 "id": "CA"
@@ -74,9 +60,7 @@
             {
                 "fields": {
                     "abstract": "Resources that are not classified",
-                    "description": "Resources that are not classified",
                     "title": "Others",
-                    "update_at": "2024/09/14 16:50:38",
                     "weight": 100
                 },
                 "id": "CD"
@@ -88,9 +72,7 @@
             {
                 "fields": {
                     "abstract": "Data sourced from Wikipedia",
-                    "description": "Data sourced from Wikipedia",
                     "title": "Wikipedia",
-                    "update_at": "2024/09/05 14:18:55",
                     "weight": 99
                 },
                 "id": "s"
@@ -98,9 +80,7 @@
             {
                 "fields": {
                     "abstract": "Data derived from academic publications",
-                    "description": "Data derived from academic publications",
                     "title": "Academic Publications",
-                    "update_at": "2024/09/05 14:19:01",
                     "weight": 100
                 },
                 "id": "t"
@@ -108,9 +88,7 @@
             {
                 "fields": {
                     "abstract": "Data obtained from patents",
-                    "description": "Data obtained from patents",
                     "title": "Patents",
-                    "update_at": "2024/09/05 14:19:13",
                     "weight": 98
                 },
                 "id": "u"
@@ -118,9 +96,7 @@
             {
                 "fields": {
                     "abstract": "Data coming from open source code",
-                    "description": "Data coming from open source code",
                     "title": "Code",
-                    "update_at": "2024/09/05 14:19:40",
                     "weight": 80
                 },
                 "id": "v"
@@ -128,9 +104,7 @@
             {
                 "fields": {
                     "abstract": "Content that remains uncategorized for now",
-                    "description": "Content that remains uncategorized for now",
                     "title": "Others",
-                    "update_at": "2024/09/05 14:19:43",
                     "weight": 1
                 },
                 "id": "w"
@@ -138,9 +112,7 @@
             {
                 "fields": {
                     "abstract": "A certain amount of data or some documents",
-                    "description": "A certain amount of data or some documents",
                     "title": "Documentation",
-                    "update_at": "2024/09/06 18:24:32",
                     "weight": 5
                 },
                 "id": "BI"
@@ -148,9 +120,7 @@
             {
                 "fields": {
                     "abstract": "Data derived from Encyclopaedia Britannica",
-                    "description": "Data derived from Encyclopaedia Britannica",
                     "title": "Encyclopædia Britannica",
-                    "update_at": "2024/09/11 15:33:51",
                     "weight": 95
                 },
                 "id": "B9"
@@ -158,9 +128,7 @@
             {
                 "fields": {
                     "abstract": "Resources of websites",
-                    "description": "Resources of websites",
                     "title": "Websites",
-                    "update_at": "2024/09/12 14:04:44",
                     "weight": 10
                 },
                 "id": "B_"
@@ -172,9 +140,7 @@
             {
                 "fields": {
                     "abstract": "Data related to arXiv",
-                    "description": "Data related to arXiv",
                     "title": "ArXiv",
-                    "update_at": "2024/09/05 14:20:26",
                     "weight": 100
                 },
                 "id": "1"
@@ -182,9 +148,7 @@
             {
                 "fields": {
                     "abstract": "Data related to OpenAlex",
-                    "description": "Data related to OpenAlex",
                     "title": "OpenAlex",
-                    "update_at": "2024/09/05 14:20:30",
                     "weight": 100
                 },
                 "id": "2"
@@ -192,9 +156,7 @@
             {
                 "fields": {
                     "abstract": "Processed data",
-                    "description": "Processed data",
                     "title": "Data",
-                    "update_at": "2024/09/05 14:20:47",
                     "weight": 100
                 },
                 "id": "4"
@@ -202,9 +164,7 @@
             {
                 "fields": {
                     "abstract": "Internally written articles",
-                    "description": "Internally written articles",
                     "title": "Article",
-                    "update_at": "2024/09/05 14:21:13",
                     "weight": 100
                 },
                 "id": "5"
@@ -212,9 +172,7 @@
             {
                 "fields": {
                     "abstract": "Data containing disciplinary categories",
-                    "description": "Data containing disciplinary categories",
                     "title": "Subjects",
-                    "update_at": "2024/09/05 14:21:32",
                     "weight": 100
                 },
                 "id": "6"
@@ -222,9 +180,7 @@
             {
                 "fields": {
                     "abstract": "Data related to MAG",
-                    "description": "Data related to MAG",
                     "title": "MAG",
-                    "update_at": "2024/09/06 18:19:54",
                     "weight": 100
                 },
                 "id": "BD"
@@ -232,9 +188,7 @@
             {
                 "fields": {
                     "abstract": "Data related to patents",
-                    "description": "Data related to patents",
                     "title": "Patents",
-                    "update_at": "2024/09/06 18:20:15",
                     "weight": 100
                 },
                 "id": "BE"
@@ -242,9 +196,7 @@
             {
                 "fields": {
                     "abstract": "International Data Category",
-                    "description": "International Data Category",
                     "title": "International ",
-                    "update_at": "2024/09/06 18:20:45",
                     "weight": 100
                 },
                 "id": "BF"
@@ -252,9 +204,7 @@
             {
                 "fields": {
                     "abstract": "Data related to github",
-                    "description": "Data related to github",
                     "title": "Github",
-                    "update_at": "2024/09/06 18:20:59",
                     "weight": 100
                 },
                 "id": "BG"
@@ -262,9 +212,7 @@
             {
                 "fields": {
                     "abstract": "Data with the time dimension",
-                    "description": "Data with the time dimension",
                     "title": "Trend charts",
-                    "update_at": "2024/09/11 12:02:54",
                     "weight": 100
                 },
                 "id": "BP"
@@ -272,9 +220,7 @@
             {
                 "fields": {
                     "abstract": "Use the Google Distance calculation method",
-                    "description": "Use the Google Distance calculation method",
                     "title": "Google Distance",
-                    "update_at": "2024/09/11 12:15:44",
                     "weight": 100
                 },
                 "id": "BW"
@@ -282,9 +228,7 @@
             {
                 "fields": {
                     "abstract": "Data about people",
-                    "description": "Data about people",
                     "title": "People",
-                    "update_at": "2024/09/11 12:22:18",
                     "weight": 100
                 },
                 "id": "Ba"
@@ -292,9 +236,7 @@
             {
                 "fields": {
                     "abstract": "Statistical data",
-                    "description": "Statistical data",
                     "title": "Stats",
-                    "update_at": "2024/09/11 12:22:57",
                     "weight": 100
                 },
                 "id": "Bb"
@@ -302,9 +244,7 @@
             {
                 "fields": {
                     "abstract": "Use the network entropy calculation method",
-                    "description": "Use the network entropy calculation method",
                     "title": "Entropy",
-                    "update_at": "2024/09/11 14:31:04",
                     "weight": 100
                 },
                 "id": "Bs"
@@ -312,9 +252,7 @@
             {
                 "fields": {
                     "abstract": "Research conducted using small-world networks",
-                    "description": "Research conducted using small-world networks",
                     "title": "Small world",
-                    "update_at": "2024/09/11 14:31:09",
                     "weight": 100
                 },
                 "id": "Bt"
@@ -322,9 +260,7 @@
             {
                 "fields": {
                     "abstract": "Use the power law calculation method",
-                    "description": "Use the power law calculation method",
                     "title": "Power law",
-                    "update_at": "2024/09/11 15:23:15",
                     "weight": 100
                 },
                 "id": "B6"
@@ -332,9 +268,7 @@
             {
                 "fields": {
                     "abstract": "Other contents",
-                    "description": "Other contents",
                     "title": "Other",
-                    "update_at": "2024/09/12 14:05:47",
                     "weight": 1
                 },
                 "id": "CB"
@@ -342,9 +276,7 @@
             {
                 "fields": {
                     "abstract": "The display related to category trees",
-                    "description": "The display related to category trees",
                     "title": "Category trees",
-                    "update_at": "2024/09/12 14:14:48",
                     "weight": 100
                 },
                 "id": "CC"
@@ -352,9 +284,7 @@
             {
                 "fields": {
                     "abstract": "Use the calculation method of knowledge complexity",
-                    "description": "Use the calculation method of knowledge complexity",
                     "title": "Knowledge complexity",
-                    "update_at": "2024/09/14 17:40:07",
                     "weight": 100
                 },
                 "id": "CE"
@@ -362,12 +292,18 @@
             {
                 "fields": {
                     "abstract": "Data related to Wikipedia",
-                    "description": "Data related to Wikipedia",
                     "title": "Wikipedia",
-                    "update_at": "2024/09/14 17:43:22",
                     "weight": 100
                 },
                 "id": "CF"
+            },
+            {
+                "fields": {
+                    "abstract": "Study the compression efficiency of different data",
+                    "title": "Compression",
+                    "weight": 30
+                },
+                "id": "CK"
             }
         ]
     },
@@ -375,349 +311,198 @@
         "records": [
             {
                 "fields": {
-                    "abstract": "arXiv 的分类学体系（taxonomy）构建了一个详尽的框架，把计算机科学、数学、物理学等学科细分为精确的子分类.",
+                    "abstract": "arXiv 是研究论文预印本分享平台, arXiv Category Taxonomy 是 arXiv 中的学科分类树。",
                     "create_at": "2024/09/04",
-                    "description": "arXiv 的分类学体系（taxonomy）构建了一个详尽的框架，把计算机科学、数学、物理学等学科细分为精确的子分类.",
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_bak": "paper",
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://arxiv-category-ontology.knogen.com",
                     "tags": [
                         "ArXiv",
                         "Category trees",
                         "Subjects"
                     ],
-                    "tags_bak": [
-                        "arxiv",
-                        "paper"
-                    ],
-                    "tags_o": [
-                        "1",
-                        "CC",
-                        "6"
-                    ],
                     "title": "arXiv Category Taxonomy",
                     "view": [
                         "Tree views"
                     ],
-                    "view_bak": "tree",
-                    "view_o": [
-                        "x"
-                    ],
-                    "weight": 100
+                    "weight": 620
                 },
                 "id": "B"
             },
             {
                 "fields": {
-                    "abstract": "Microsoft Academic Graph（MAG）是一个规模庞大的学术数据库，其中包含数以亿计的学术论文、作者、会议以及期刊等信息。MAG 的一个重要特性在于它对学术出版物进行了详尽的分类，而这种分类体系被称作 Fields of Study（FoS）分类体系。",
+                    "abstract": "MAG（Microsoft Academic Graph）是一个公开的学术出版物和引文数据集, FOS (Fields of Study) 是 MAG 中 的学科分类树。",
                     "create_at": "2024/09/04",
-                    "description": "Microsoft Academic Graph (MAG) 是一个庞大的学术数据库，它包含了数以亿计的学术论文、作者、会议和期刊等信息。MAG 的一个重要特征是它对学术出版物进行了详细的分类，这种分类体系被称为 Fields of Study (FoS) 分类体系。",
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_bak": "paper",
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v2/demo/mag/fos-trend-2022",
                     "tags": [
                         "Category trees",
                         "MAG",
                         "Subjects"
                     ],
-                    "tags_bak": [
-                        "MAG",
-                        "paper"
-                    ],
-                    "tags_o": [
-                        "CC",
-                        "BD",
-                        "6"
-                    ],
-                    "title": "MAG FOS",
+                    "title": "MAG Fields of Study",
                     "view": [
                         "Tree views"
                     ],
-                    "view_bak": "tree",
-                    "view_o": [
-                        "x"
-                    ],
-                    "weight": 50
+                    "weight": 617
                 },
                 "id": "C"
             },
             {
                 "fields": {
-                    "abstract": "OpenAlex Concept 是 OpenAlex 数据集中用以描述学术论文主题的抽象概念。它们是基于论文的标题和摘要，通过自动化分类器进行标记的。这些概念具备层次结构，能够帮助用户理解学术作品的研究领域。",
+                    "abstract": " OpenAlex 中的学科分类树。",
                     "create_at": "2024/09/04",
-                    "description": "OpenAlex 是一个由非营利组织 OurResearch 创建的开放目录，旨在索引全球的研究系统。它的名字灵感来自古亚历山大图书馆，旨在提供一个完全开放的学术研究系统目录。OpenAlex 包含了超过2亿篇学术论文、2000多万作者、12.4万个出版场所（如期刊和在线存储库）、10.9万个机构以及65万个概念的元数据. \n在 OpenAlex 中，\"concepts\" 是指作品所涉及的抽象概念。这些概念通过一个自动化分类器根据论文的标题和摘要进行标记，该分类器是在 Microsoft Academic Graph (MAG) 的语料库上训练的。所有 OpenAlex 概念也都是 Wikidata 概念，并且具有层次结构，类似于树状结构。这个概念树是 MAG 所使用的概念树的修改版本，包含大约65,000个概念。大约85%的作品至少被分配了一个概念。",
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_bak": "paper",
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v2/demo/openalex/concept-tree-2022",
                     "tags": [
                         "OpenAlex",
                         "Category trees",
                         "Subjects"
                     ],
-                    "tags_bak": [
-                        "paper",
-                        "OpenAlex"
-                    ],
-                    "tags_o": [
-                        "2",
-                        "CC",
-                        "6"
-                    ],
-                    "title": "OpenAlex concept",
+                    "title": "OpenAlex Concept",
                     "view": [
                         "Tree views"
                     ],
-                    "view_bak": "tree",
-                    "view_o": [
-                        "x"
-                    ],
-                    "weight": 100
+                    "weight": 619
                 },
                 "id": "D"
             },
             {
                 "fields": {
-                    "abstract": "IPC（国际专利分类）专利查询网页是进行专利检索的重要工具。",
+                    "abstract": "IPC（International Patent Classification）是专利的学科分类树。",
                     "create_at": "2024/09/04",
-                    "description": "IPC（International Patent Classification）专利分类体系将技术领域分为不同的等级结构，包括部（Section）、大类（Class）、小类（Subclass）、大组（Main Group）和小组（Subgroup）",
                     "origin": [
                         "Patents"
                     ],
-                    "origin_bak": "patent",
-                    "origin_o": [
-                        "u"
-                    ],
+                    "private": false,
                     "public_url": "https://ipc.incopat.com/index",
                     "tags": [
                         "Patents",
                         "Category trees",
                         "Subjects"
                     ],
-                    "tags_bak": [
-                        "patent"
-                    ],
-                    "tags_o": [
-                        "BE",
-                        "CC",
-                        "6"
-                    ],
-                    "title": "IPC Inquiry",
+                    "title": "International Patent Classification",
                     "view": [
                         "Tree views"
                     ],
-                    "view_bak": "tree",
-                    "view_o": [
-                        "x"
-                    ],
-                    "weight": 100
+                    "weight": 618
                 },
                 "id": "a"
             },
             {
                 "fields": {
-                    "abstract": "MAG 学科树连接图采用 2010 年谷歌距离 linksin delete_noref_v3，其方法论涉及 masdistancev2 距离、MAG 的 fos 浏览器以及特定版本的 linksin。",
+                    "abstract": "MAG（Microsoft Academic Graph）是一个公开的学术出版物和引文数据集, Subject Graph 是 MAG 中的学科连接树",
                     "create_at": "2024/09/04",
-                    "description": "MAG 学科树连接图，采用 2010 年当时的谷歌距离 linksin delete_noref_v3。\n方法论：\n运用 masdistancev2 的距离，学科层次借助 MAG fos 浏览器，距离选取 2010 年的 linksin，版本为 delete_noref_v3。\n点的大小通过 [10,30] 的线性映射对应学科文章数量。\n引力图说明：\n点越大，表明学科规模越大；边越短，意味着学科距离越近。\n着色模式：\ninfoMap：利用 infoMap 对学科进行分类。\nSubject：按照默认的学科归属进行归类。\n可以看到 MAG 中学科的距离关系。",
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_bak": "paper",
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v2/demo/mag/subject-algorithm-tree",
                     "tags": [
                         "Subjects",
                         "MAG"
                     ],
-                    "tags_bak": [
-                        "MAG",
-                        "subject"
-                    ],
-                    "tags_o": [
-                        "6",
-                        "BD"
-                    ],
-                    "title": "MAG 学科网络图",
+                    "title": "MAG Subject Graph",
                     "view": [
                         "Graphs"
                     ],
-                    "view_bak": "graph",
-                    "view_o": [
-                        "y"
-                    ],
-                    "weight": 100
+                    "weight": 200
                 },
                 "id": "b"
             },
             {
                 "fields": {
-                    "abstract": "使用 Github 项目和开发者关系数据计算出的知识复杂度,",
+                    "abstract": "知识复杂度指数（Knowledge Complexity Index, KCI）是一个衡量国家或地区知识复杂性的指标，它基于知识产出的多样性和深度，反映了一个国家在科学、技术和创新领域中的知识创造和应用能力。Github 开源代码可以作为知识的载体, 计算知识复杂度。",
                     "create_at": "2024/09/04",
-                    "description": "使用 Github 项目和开发者关系数据计算出的知识复杂度,",
                     "origin": [
                         "Code"
                     ],
-                    "origin_bak": "code",
-                    "origin_o": [
-                        "v"
-                    ],
+                    "private": false,
                     "public_url": "https://bumps-demo-20221110.nikepai.com/page/github-eci",
                     "tags": [
                         "Github",
                         "International ",
                         "Knowledge complexity"
                     ],
-                    "tags_bak": [
-                        "github",
-                        "country"
-                    ],
-                    "tags_o": [
-                        "BG",
-                        "BF",
-                        "CE"
-                    ],
                     "title": "知识复杂度（Github）",
                     "view": [
                         "Bump charts"
                     ],
-                    "view_bak": "bump",
-                    "view_o": [
-                        "z"
-                    ],
-                    "weight": 100
+                    "weight": 436
                 },
                 "id": "c"
             },
             {
                 "fields": {
-                    "abstract": "使用专利和申请者关系数据计算出的知识复杂度,",
+                    "abstract": "知识复杂度指数（Knowledge Complexity Index, KCI）是一个衡量国家或地区知识复杂性的指标，它基于知识产出的多样性和深度，反映了一个国家在科学、技术和创新领域中的知识创造和应用能力。专利可以作为知识的载体, 计算知识复杂度。",
                     "create_at": "2024/09/04",
-                    "description": "使用专利和申请者关系数据计算出的知识复杂度,",
                     "origin": [
                         "Patents"
                     ],
-                    "origin_bak": "patent",
-                    "origin_o": [
-                        "u"
-                    ],
+                    "private": false,
                     "public_url": "https://bumps-demo-20221110.nikepai.com/page/patent",
                     "tags": [
                         "Patents",
                         "International ",
                         "Knowledge complexity"
                     ],
-                    "tags_bak": [
-                        "patent",
-                        "country"
-                    ],
-                    "tags_o": [
-                        "BE",
-                        "BF",
-                        "CE"
-                    ],
                     "title": "知识复杂度（专利）",
                     "view": [
                         "Bump charts"
                     ],
-                    "view_bak": "bump",
-                    "view_o": [
-                        "z"
-                    ],
-                    "weight": 100
+                    "weight": 432
                 },
                 "id": "d"
             },
             {
                 "fields": {
-                    "abstract": "使用论文引文数据计算的知识复杂度",
+                    "abstract": "知识复杂度指数（Knowledge Complexity Index, KCI）是一个衡量国家或地区知识复杂性的指标，它基于知识产出的多样性和深度，反映了一个国家在科学、技术和创新领域中的知识创造和应用能力。学术出版物可以作为知识的载体, 计算知识复杂度。",
                     "create_at": "2024/09/05",
-                    "description": "使用论文引文数据计算的知识复杂度",
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_bak": "paper",
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://bumps-demo-20221110.nikepai.com/page/paper",
                     "tags": [
                         "International ",
                         "Knowledge complexity",
                         "OpenAlex"
                     ],
-                    "tags_bak": [
-                        "paper",
-                        "country"
-                    ],
-                    "tags_o": [
-                        "BF",
-                        "CE",
-                        "2"
-                    ],
-                    "title": "知识复杂度（论文）",
+                    "title": "知识复杂度（学术出版物）",
                     "view": [
                         "Bump charts"
                     ],
-                    "view_bak": "bump",
-                    "view_o": [
-                        "z"
-                    ],
-                    "weight": 100
+                    "weight": 423
                 },
                 "id": "e"
             },
             {
                 "fields": {
-                    "abstract": "Wikipedia（维基百科）学科树是一个非常有价值的知识体系架构。",
+                    "abstract": "Wikipedia（维基百科）的分类体系架构。",
                     "create_at": "2024/09/05",
-                    "description": "Wikipedia（维基百科）学科树是一个非常有价值的知识体系架构。",
                     "origin": [
                         "Wikipedia"
                     ],
-                    "origin_bak": "wikipedia",
-                    "origin_o": [
-                        "s"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/browser/WikiTree",
                     "tags": [
                         "Subjects",
                         "Category trees",
                         "Wikipedia"
                     ],
-                    "tags_bak": [
-                        "wikipedia",
-                        "subject"
-                    ],
-                    "tags_o": [
-                        "6",
-                        "CC",
-                        "CF"
-                    ],
                     "title": "Wikipedia Categories",
                     "view": [
                         "Tree views"
                     ],
-                    "view_bak": "tree",
-                    "view_o": [
-                        "x"
-                    ],
-                    "weight": 100
+                    "weight": 621
                 },
                 "id": "f"
             },
@@ -725,33 +510,19 @@
                 "fields": {
                     "abstract": "国际奖项获得者的公开数据，截止至 2024 年 4 月 18 日。",
                     "create_at": "2024/09/05",
-                    "description": "国际奖项获得者的公开数据, 截止到 20240418",
                     "origin": [
                         "Others"
                     ],
-                    "origin_bak": "other",
-                    "origin_o": [
-                        "w"
-                    ],
+                    "private": false,
                     "public_url": "https://kdocs.cn/l/cvt2FRmbhgWq",
                     "tags": [
                         "Data"
-                    ],
-                    "tags_bak": [
-                        "data"
-                    ],
-                    "tags_o": [
-                        "4"
                     ],
                     "title": "国际奖项统计",
                     "view": [
                         "Documentation"
                     ],
-                    "view_bak": "document",
-                    "view_o": [
-                        "8"
-                    ],
-                    "weight": 100
+                    "weight": 50
                 },
                 "id": "g"
             },
@@ -759,116 +530,70 @@
                 "fields": {
                     "abstract": "科学发现将会越来越具有难度。",
                     "create_at": "2024/09/05",
-                    "description": "科学发现将会变得越来越难",
                     "origin": [
                         "Others"
                     ],
-                    "origin_bak": "other",
-                    "origin_o": [
-                        "w"
-                    ],
+                    "private": false,
                     "public_url": "https://kdocs.cn/l/ct2SdvmtRPep",
                     "tags": [
                         "Article"
                     ],
-                    "tags_bak": [
-                        "article"
-                    ],
-                    "tags_o": [
-                        "5"
-                    ],
-                    "title": "发展定律",
+                    "title": "科学发展定律",
                     "view": [
                         "Documentation"
                     ],
-                    "view_bak": "document",
-                    "view_o": [
-                        "8"
-                    ],
-                    "weight": 100
+                    "weight": 50
                 },
                 "id": "h"
             },
             {
                 "fields": {
-                    "abstract": "国际奖项获得者的学术背景统计分析。",
+                    "abstract": "国际奖项获得者的学术背景统计。",
                     "create_at": "2024/09/05",
-                    "description": "国际奖项获得者学术背景统计",
                     "origin": [
                         "Others"
                     ],
-                    "origin_bak": "other",
-                    "origin_o": [
-                        "w"
-                    ],
+                    "private": false,
                     "public_url": "https://kdocs.cn/l/cmXscVtAQdiX",
                     "tags": [
                         "Article"
-                    ],
-                    "tags_bak": [
-                        "article"
-                    ],
-                    "tags_o": [
-                        "5"
                     ],
                     "title": "国际奖项获得者学术背景统计",
                     "view": [
                         "Documentation"
                     ],
-                    "view_bak": "document",
-                    "view_o": [
-                        "8"
-                    ],
-                    "weight": 100
+                    "weight": 50
                 },
                 "id": "i"
             },
             {
                 "fields": {
-                    "abstract": "望远镜等工程的里程碑式数据统计。",
+                    "abstract": "望远镜等工程的里程碑数据统计。",
                     "create_at": "2024/09/05",
-                    "description": "望远镜等工程里程碑数据统计",
                     "origin": [
                         "Others"
                     ],
-                    "origin_bak": "other",
-                    "origin_o": [
-                        "w"
-                    ],
+                    "private": false,
                     "public_url": "https://kdocs.cn/l/coyVmA6popgw",
                     "tags": [
                         "Data"
-                    ],
-                    "tags_bak": [
-                        "data"
-                    ],
-                    "tags_o": [
-                        "4"
                     ],
                     "title": "望远镜等里程碑数据统计",
                     "view": [
                         "Documentation"
                     ],
-                    "view_bak": "document",
-                    "view_o": [
-                        "8"
-                    ],
-                    "weight": 100
+                    "weight": 50
                 },
                 "id": "j"
             },
             {
                 "fields": {
-                    "abstract": "“MAG、维基百科（Wiki）以及专利（Patent）的数据统计，涵盖了包括网站书籍在内的内容，以及其每年的变化趋势等等”。",
+                    "abstract": "MAG, Wikipedia, Patents 的数据统计，涵盖数量, 引用等趋势数据。",
                     "create_at": "2024/09/05",
-                    "description": "MAG,wiki,Patent 数据统计, 包括网站书,每年变化趋势等等",
                     "origin": [
                         "Others"
                     ],
-                    "origin_bak": "other",
-                    "origin_o": [
-                        "w"
-                    ],
+                    "private": false,
                     "public_url": "https://kdocs.cn/l/cpuRuteeJDBB",
                     "tags": [
                         "Data",
@@ -876,261 +601,176 @@
                         "Patents",
                         "Wikipedia"
                     ],
-                    "tags_bak": [
-                        "data"
-                    ],
-                    "tags_o": [
-                        "4",
-                        "BD",
-                        "BE",
-                        "CF"
-                    ],
-                    "title": "Stats of MAG, Wikipedia and Patent",
+                    "title": "Stats of MAG, Wikipedia and Patents",
                     "view": [
                         "Documentation"
                     ],
-                    "view_bak": "document",
-                    "view_o": [
-                        "8"
-                    ],
-                    "weight": 100
+                    "weight": 120
                 },
                 "id": "k"
             },
             {
                 "fields": {
-                    "abstract": "对中美四个区域的论文数进行对比，这些论文数据来源于 OpenAlex 。",
+                    "abstract": "中美四个区域的论文数比较，数据来源于 OpenAlex 。",
                     "create_at": "2024/09/11",
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://chart-demo-20111111.nikepai.com/charts/china-us-global-cite",
                     "tags": [
                         "OpenAlex",
                         "International ",
                         "Trend charts"
                     ],
-                    "tags_o": [
-                        "2",
-                        "BF",
-                        "BP"
-                    ],
-                    "title": "中美 4 地区论文数比较",
+                    "title": "中美四个区域论文数比较",
                     "view": [
                         "Maps"
                     ],
-                    "view_o": [
-                        "BM"
-                    ],
-                    "weight": 100
+                    "weight": 230
                 },
                 "id": "BL"
             },
             {
                 "fields": {
-                    "abstract": "对中美多个大型城市的论文数量展开比较。",
+                    "abstract": "中美城市或区域的论文数比较，数据来源于 OpenAlex 。",
                     "create_at": "2024/09/11",
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://chart-demo-20111111.nikepai.com/charts/china-us-compare-2",
                     "tags": [
                         "OpenAlex",
                         "International ",
                         "Trend charts"
                     ],
-                    "tags_o": [
-                        "2",
-                        "BF",
-                        "BP"
-                    ],
-                    "title": "中美多个大城市论文数比较\n\n",
+                    "title": "中美城市或区域论文数比较\n\n",
                     "view": [
                         "Maps"
                     ],
-                    "view_o": [
-                        "BM"
-                    ],
-                    "weight": 100
+                    "weight": 231
                 },
                 "id": "BN"
             },
             {
                 "fields": {
-                    "abstract": "关于中美（区域与城市进行合并后）的论文数比较。",
+                    "abstract": "中美城市或区域的论文数比较，包含两大湾区比较，数据来源于 OpenAlex 。",
                     "create_at": "2024/09/11",
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://chart-demo-20111111.nikepai.com/charts/china-us-compare-3",
                     "tags": [
                         "OpenAlex",
                         "International ",
                         "Trend charts"
                     ],
-                    "tags_o": [
-                        "2",
-                        "BF",
-                        "BP"
-                    ],
-                    "title": "中美（区域城市合并）论文数比较\n\n",
+                    "title": "中美(城市或区域)论文数比较\n\n",
                     "view": [
                         "Maps"
                     ],
-                    "view_o": [
-                        "BM"
-                    ],
-                    "weight": 100
+                    "weight": 232
                 },
                 "id": "BO"
             },
             {
                 "fields": {
-                    "abstract": "中美多个大城市论文数量的全球引用分布情况",
+                    "abstract": "中美多个大城市论文数量的全球引用分布情况，数据来源于 OpenAlex 。",
                     "create_at": "2024/09/11",
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://chart-demo-20111111.nikepai.com/charts/china-us-global-cite",
                     "tags": [
                         "OpenAlex",
                         "International ",
                         "Trend charts"
                     ],
-                    "tags_o": [
-                        "2",
-                        "BF",
-                        "BP"
-                    ],
                     "title": "中美多个大城市论文数全球引用分布",
                     "view": [
                         "Maps"
                     ],
-                    "view_o": [
-                        "BM"
-                    ],
-                    "weight": 100
+                    "weight": 233
                 },
                 "id": "BQ"
             },
             {
                 "fields": {
-                    "abstract": "中美四个地区专利数量的比较",
+                    "abstract": "中美四个地区专利数量的比较。",
                     "create_at": "2024/09/11",
                     "origin": [
                         "Patents"
                     ],
-                    "origin_o": [
-                        "u"
-                    ],
+                    "private": false,
                     "public_url": "https://chart-demo-20111111.nikepai.com/charts/china-us-compare-patent-1",
                     "tags": [
                         "International ",
                         "Trend charts",
                         "Patents"
                     ],
-                    "tags_o": [
-                        "BF",
-                        "BP",
-                        "BE"
-                    ],
-                    "title": "中美 4 地区专利数比较",
+                    "title": "中美 4地区专利数比较",
                     "view": [
                         "Maps"
                     ],
-                    "view_o": [
-                        "BM"
-                    ],
-                    "weight": 100
+                    "weight": 170
                 },
                 "id": "BR"
             },
             {
                 "fields": {
-                    "abstract": "中美多个大型城市专利数量的对比",
+                    "abstract": "中美多个大型城市专利数量的比较。",
                     "create_at": "2024/09/11",
                     "origin": [
                         "Patents"
                     ],
-                    "origin_o": [
-                        "u"
-                    ],
+                    "private": false,
                     "public_url": "https://chart-demo-20111111.nikepai.com/charts/china-us-compare-patent-2",
                     "tags": [
                         "International ",
                         "Trend charts",
                         "Patents"
                     ],
-                    "tags_o": [
-                        "BF",
-                        "BP",
-                        "BE"
-                    ],
                     "title": "中美多个大城市专利数比较",
                     "view": [
                         "Maps"
                     ],
-                    "view_o": [
-                        "BM"
-                    ],
-                    "weight": 100
+                    "weight": 171
                 },
                 "id": "BS"
             },
             {
                 "fields": {
-                    "abstract": "中美（区域与城市合并后）的专利数比较",
+                    "abstract": "中美（区域与城市合并后）的专利数比较。",
                     "create_at": "2024/09/11",
                     "origin": [
                         "Patents"
                     ],
-                    "origin_o": [
-                        "u"
-                    ],
+                    "private": false,
                     "public_url": "https://chart-demo-20111111.nikepai.com/charts/china-us-compare-patent-3",
                     "tags": [
                         "International ",
                         "Trend charts",
                         "Patents"
                     ],
-                    "tags_o": [
-                        "BF",
-                        "BP",
-                        "BE"
-                    ],
                     "title": "中美（区域城市合并）专利数比较",
                     "view": [
                         "Maps"
                     ],
-                    "view_o": [
-                        "BM"
-                    ],
-                    "weight": 100
+                    "weight": 172
                 },
                 "id": "BT"
             },
             {
                 "fields": {
-                    "abstract": "Wikipedia 学科 google 距离中间数据",
+                    "abstract": "Wikipedia 学科的 google 距离中间数据",
                     "create_at": "2024/09/11",
                     "origin": [
                         "Wikipedia"
                     ],
-                    "origin_o": [
-                        "s"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia-build/WikiGoogleDistance",
                     "tags": [
                         "Trend charts",
@@ -1138,18 +778,9 @@
                         "Google Distance",
                         "Wikipedia"
                     ],
-                    "tags_o": [
-                        "BP",
-                        "6",
-                        "BW",
-                        "CF"
-                    ],
-                    "title": "Wikipedia 学科 google 距离中间数据",
+                    "title": "Wikipedia 学科的 google 距离中间数据",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -1162,9 +793,7 @@
                     "origin": [
                         "Wikipedia"
                     ],
-                    "origin_o": [
-                        "s"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia/DisciplineCore?version=v5_new",
                     "tags": [
                         "Trend charts",
@@ -1172,18 +801,9 @@
                         "Google Distance",
                         "Wikipedia"
                     ],
-                    "tags_o": [
-                        "BP",
-                        "6",
-                        "BW",
-                        "CF"
-                    ],
                     "title": "Wikipedia-Core 学科相关度",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -1196,9 +816,7 @@
                     "origin": [
                         "Wikipedia"
                     ],
-                    "origin_o": [
-                        "s"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia/disciplinePeople",
                     "tags": [
                         "Trend charts",
@@ -1207,19 +825,9 @@
                         "Subjects",
                         "Wikipedia"
                     ],
-                    "tags_o": [
-                        "BP",
-                        "BW",
-                        "Ba",
-                        "6",
-                        "CF"
-                    ],
-                    "title": "people in Wikipedia 相关度",
+                    "title": "People in Wikipedia 相关度",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -1232,9 +840,7 @@
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/mag2020/GoogleDistance",
                     "tags": [
                         "Trend charts",
@@ -1242,18 +848,9 @@
                         "Google Distance",
                         "MAG"
                     ],
-                    "tags_o": [
-                        "BP",
-                        "6",
-                        "BW",
-                        "BD"
-                    ],
                     "title": "MAG Google 距离中间数据",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -1266,9 +863,7 @@
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/mag2020/MagGoogleDistance_2020_V3",
                     "tags": [
                         "Trend charts",
@@ -1276,18 +871,9 @@
                         "Google Distance",
                         "MAG"
                     ],
-                    "tags_o": [
-                        "BP",
-                        "6",
-                        "BW",
-                        "BD"
-                    ],
                     "title": "MAG 学科相关度 2020（当时的距离）",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -1300,9 +886,7 @@
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/mag2020/MagPlantDistance",
                     "tags": [
                         "Trend charts",
@@ -1310,18 +894,9 @@
                         "Google Distance",
                         "MAG"
                     ],
-                    "tags_o": [
-                        "BP",
-                        "6",
-                        "BW",
-                        "BD"
-                    ],
                     "title": "MAG 二级学科距离",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -1334,9 +909,7 @@
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/wm/GoogleDistance",
                     "tags": [
                         "Trend charts",
@@ -1344,18 +917,9 @@
                         "Google Distance",
                         "MAG"
                     ],
-                    "tags_o": [
-                        "BP",
-                        "6",
-                        "BW",
-                        "BD"
-                    ],
                     "title": "E-1200 Google 距离中间数据",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -1368,9 +932,7 @@
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/wm/WMGoogleDistance_2020_V3",
                     "tags": [
                         "Trend charts",
@@ -1378,18 +940,9 @@
                         "Google Distance",
                         "MAG"
                     ],
-                    "tags_o": [
-                        "BP",
-                        "6",
-                        "BW",
-                        "BD"
-                    ],
                     "title": "E-1200 学科相关度 2020（当时的距离）",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -1403,10 +956,7 @@
                         "Wikipedia",
                         "Academic Publications"
                     ],
-                    "origin_o": [
-                        "s",
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia/WikiAndMagCountByYear",
                     "tags": [
                         "Trend charts",
@@ -1415,19 +965,9 @@
                         "MAG",
                         "Wikipedia"
                     ],
-                    "tags_o": [
-                        "BP",
-                        "6",
-                        "Bb",
-                        "BD",
-                        "CF"
-                    ],
                     "title": "Wikipedia-MAG-E1200 总文章和边数按年趋势",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -1440,9 +980,7 @@
                     "origin": [
                         "Wikipedia"
                     ],
-                    "origin_o": [
-                        "s"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia-build/ArticlesTotal",
                     "tags": [
                         "Trend charts",
@@ -1450,18 +988,9 @@
                         "Stats",
                         "Wikipedia"
                     ],
-                    "tags_o": [
-                        "BP",
-                        "6",
-                        "Bb",
-                        "CF"
-                    ],
                     "title": "Wikipedia 学科文章数",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -1475,10 +1004,7 @@
                         "Wikipedia",
                         "Academic Publications"
                     ],
-                    "origin_o": [
-                        "s",
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia/WikiAndMagCountByYear",
                     "tags": [
                         "Trend charts",
@@ -1486,18 +1012,9 @@
                         "MAG",
                         "Wikipedia"
                     ],
-                    "tags_o": [
-                        "BP",
-                        "Bb",
-                        "BD",
-                        "CF"
-                    ],
                     "title": "Wikipedia MAG 总文章数\n",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -1510,26 +1027,16 @@
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v2/demo/openalex/node-edges",
                     "tags": [
                         "Trend charts",
                         "Stats",
                         "OpenAlex"
                     ],
-                    "tags_o": [
-                        "BP",
-                        "Bb",
-                        "2"
-                    ],
                     "title": "OpenAlex 统计数据",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -1542,26 +1049,16 @@
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v2/demo/openalex/reference-stats",
                     "tags": [
                         "Trend charts",
                         "OpenAlex",
                         "International "
                     ],
-                    "tags_o": [
-                        "BP",
-                        "2",
-                        "BF"
-                    ],
                     "title": "OpenAlex 自恋度",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -1574,9 +1071,7 @@
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v2/demo/openalex/subject-google-distance-2022",
                     "tags": [
                         "Trend charts",
@@ -1584,18 +1079,9 @@
                         "International ",
                         "Google Distance"
                     ],
-                    "tags_o": [
-                        "BP",
-                        "2",
-                        "BF",
-                        "BW"
-                    ],
                     "title": "OpenAlex Google 距离",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -1608,26 +1094,16 @@
                     "origin": [
                         "Wikipedia"
                     ],
-                    "origin_o": [
-                        "s"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia-build/Xueke_words_linksout",
                     "tags": [
                         "Trend charts",
                         "Stats",
                         "Wikipedia"
                     ],
-                    "tags_o": [
-                        "BP",
-                        "Bb",
-                        "CF"
-                    ],
                     "title": "Wikipedia 学科文章字数统计",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -1640,26 +1116,16 @@
                     "origin": [
                         "Wikipedia"
                     ],
-                    "origin_o": [
-                        "s"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia/ViewAndEdits",
                     "tags": [
                         "Trend charts",
                         "Stats",
                         "Wikipedia"
                     ],
-                    "tags_o": [
-                        "BP",
-                        "Bb",
-                        "CF"
-                    ],
                     "title": "Wikipedia 学科访问次数统计\n",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -1672,26 +1138,16 @@
                     "origin": [
                         "Wikipedia"
                     ],
-                    "origin_o": [
-                        "s"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/wm/AuthorsAndArticleInfoByYear",
                     "tags": [
                         "Trend charts",
                         "Stats",
                         "MAG"
                     ],
-                    "tags_o": [
-                        "BP",
-                        "Bb",
-                        "BD"
-                    ],
                     "title": "E-1200 作者数统计",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -1704,26 +1160,16 @@
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/mag2020/AuthorsAndArticleInfoByYear",
                     "tags": [
                         "Trend charts",
                         "Stats",
                         "MAG"
                     ],
-                    "tags_o": [
-                        "BP",
-                        "Bb",
-                        "BD"
-                    ],
                     "title": "MAG-2020-作者数逐年统计",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -1736,26 +1182,16 @@
                     "origin": [
                         "Wikipedia"
                     ],
-                    "origin_o": [
-                        "s"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia-build/wikipediaNetworkEntropy",
                     "tags": [
                         "Entropy",
                         "Trend charts",
                         "Wikipedia"
                     ],
-                    "tags_o": [
-                        "Bs",
-                        "BP",
-                        "CF"
-                    ],
                     "title": "Wikipeda 度分布熵",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -1768,26 +1204,16 @@
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/mag2020/networkEntropy",
                     "tags": [
                         "Entropy",
                         "Trend charts",
                         "MAG"
                     ],
-                    "tags_o": [
-                        "Bs",
-                        "BP",
-                        "BD"
-                    ],
                     "title": "MAG 度分布熵\n",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -1800,26 +1226,16 @@
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v2/demo/mag/e1200-entropy",
                     "tags": [
                         "Entropy",
                         "Trend charts",
                         "MAG"
                     ],
-                    "tags_o": [
-                        "Bs",
-                        "BP",
-                        "BD"
-                    ],
                     "title": "E-1200 度分布熵， 结构熵",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -1832,26 +1248,16 @@
                     "origin": [
                         "Wikipedia"
                     ],
-                    "origin_o": [
-                        "s"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia-build/wikipediaEntropy",
                     "tags": [
                         "Entropy",
                         "Trend charts",
                         "Wikipedia"
                     ],
-                    "tags_o": [
-                        "Bs",
-                        "BP",
-                        "CF"
-                    ],
                     "title": "Wikipedia 结构熵",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -1864,26 +1270,16 @@
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/mag2020/entropy",
                     "tags": [
                         "Entropy",
                         "Trend charts",
                         "MAG"
                     ],
-                    "tags_o": [
-                        "Bs",
-                        "BP",
-                        "BD"
-                    ],
                     "title": "MAG 结构熵",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -1896,26 +1292,16 @@
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/mag2020/MAGSubjectEntropy",
                     "tags": [
                         "Entropy",
                         "Trend charts",
                         "MAG"
                     ],
-                    "tags_o": [
-                        "Bs",
-                        "BP",
-                        "BD"
-                    ],
                     "title": "MAG 学科结构熵",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -1928,26 +1314,16 @@
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia/SmallWorldUndirected",
                     "tags": [
                         "Trend charts",
                         "Small world",
                         "Wikipedia"
                     ],
-                    "tags_o": [
-                        "BP",
-                        "Bt",
-                        "CF"
-                    ],
                     "title": "Wikipedia 学科网络统计逐年趋势",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -1960,26 +1336,16 @@
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia/SmallWorldUndirectedLimit",
                     "tags": [
                         "Trend charts",
                         "Small world",
                         "Wikipedia"
                     ],
-                    "tags_o": [
-                        "BP",
-                        "Bt",
-                        "CF"
-                    ],
                     "title": "Wikipedia 学科网络统计规模趋势\n",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -1992,26 +1358,16 @@
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia/CoreSWUndirectLimit",
                     "tags": [
                         "Trend charts",
                         "Small world",
                         "Wikipedia"
                     ],
-                    "tags_o": [
-                        "BP",
-                        "Bt",
-                        "CF"
-                    ],
                     "title": "Wikipedia Core 学科网络统计规模趋势\n",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -2024,26 +1380,16 @@
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia/CoreSMUndirected",
                     "tags": [
                         "Trend charts",
                         "Small world",
                         "Wikipedia"
                     ],
-                    "tags_o": [
-                        "BP",
-                        "Bt",
-                        "CF"
-                    ],
                     "title": "Wikipedia Core 学科网络统计逐年趋势\n",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -2056,26 +1402,16 @@
                     "origin": [
                         "Wikipedia"
                     ],
-                    "origin_o": [
-                        "s"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia-build/CoreZipfByNodes_wiki",
                     "tags": [
                         "Subjects",
                         "Power law",
                         "Wikipedia"
                     ],
-                    "tags_o": [
-                        "6",
-                        "B6",
-                        "CF"
-                    ],
                     "title": "Wikipedia Core 学科网络幂律",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -2088,26 +1424,16 @@
                     "origin": [
                         "Wikipedia"
                     ],
-                    "origin_o": [
-                        "s"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/wikipedia-build/DegreeDistribution",
                     "tags": [
                         "Subjects",
                         "Power law",
                         "Wikipedia"
                     ],
-                    "tags_o": [
-                        "6",
-                        "B6",
-                        "CF"
-                    ],
                     "title": "Wikipedia - 幂律及其随时间变化趋势",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -2120,26 +1446,16 @@
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/mag2020/ZipfAndInnerzipfByYearv3",
                     "tags": [
                         "Subjects",
                         "Power law",
                         "MAG"
                     ],
-                    "tags_o": [
-                        "6",
-                        "B6",
-                        "BD"
-                    ],
                     "title": "MAG - 幂律及其随时间变化趋势",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -2152,26 +1468,16 @@
                     "origin": [
                         "Academic Publications"
                     ],
-                    "origin_o": [
-                        "t"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v2/demo/openalex/power-law-2022?tab=a",
                     "tags": [
                         "Subjects",
                         "Power law",
                         "OpenAlex"
                     ],
-                    "tags_o": [
-                        "6",
-                        "B6",
-                        "2"
-                    ],
                     "title": "OpenAlex - 幂律及其随时间变化趋势\n",
                     "view": [
                         "Charts"
-                    ],
-                    "view_o": [
-                        "BV"
                     ],
                     "weight": 100
                 },
@@ -2179,31 +1485,22 @@
             },
             {
                 "fields": {
-                    "abstract": "大英百科全书 Category",
+                    "abstract": "Encyclopædia Britannica (不列颠百科全书) 学科分类树",
                     "create_at": "2024/09/11",
                     "origin": [
                         "Encyclopædia Britannica"
                     ],
-                    "origin_o": [
-                        "B9"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v1/browser/BritannicaTree",
                     "tags": [
                         "Subjects",
                         "Category trees"
                     ],
-                    "tags_o": [
-                        "6",
-                        "CC"
-                    ],
-                    "title": "大英百科全书 Category",
+                    "title": "Encyclopædia Britannica",
                     "view": [
                         "Tree views"
                     ],
-                    "view_o": [
-                        "x"
-                    ],
-                    "weight": 100
+                    "weight": 616
                 },
                 "id": "B8"
             },
@@ -2214,22 +1511,14 @@
                     "origin": [
                         "Websites"
                     ],
-                    "origin_o": [
-                        "B_"
-                    ],
+                    "private": false,
                     "public_url": "https://wiki.nikepai.com/v2/note/gird-index-1",
                     "tags": [
                         "Other"
                     ],
-                    "tags_o": [
-                        "CB"
-                    ],
                     "title": "趋势归纳- 表格导航",
                     "view": [
                         "Websites"
-                    ],
-                    "view_o": [
-                        "CA"
                     ],
                     "weight": 100
                 },
@@ -2242,26 +1531,194 @@
                     "origin": [
                         "Websites"
                     ],
-                    "origin_o": [
-                        "B_"
-                    ],
+                    "private": false,
                     "public_url": "https://rank.unirank.net/index",
                     "tags": [
                         "Other"
-                    ],
-                    "tags_o": [
-                        "CB"
                     ],
                     "title": "2020 世界大学排名",
                     "view": [
                         "Websites"
                     ],
-                    "view_o": [
-                        "CA"
-                    ],
                     "weight": 100
                 },
                 "id": "CH"
+            },
+            {
+                "fields": {
+                    "abstract": "不同类型文本的压缩效率, 多次压缩极限压缩测试",
+                    "create_at": "2024/09/26",
+                    "origin": [
+                        "Others"
+                    ],
+                    "private": false,
+                    "public_url": "https://kdocs.cn/l/cbOSntG2oDQl",
+                    "tags": [
+                        "Data",
+                        "Compression"
+                    ],
+                    "title": "文本压缩测试统计",
+                    "view": [
+                        "Documentation"
+                    ],
+                    "weight": 100
+                },
+                "id": "CI"
+            },
+            {
+                "fields": {
+                    "abstract": "托管在 Github 上不同语言的顶级开源项目的代码压缩效率, 多次压缩极限压缩测试",
+                    "create_at": "2024/09/26",
+                    "origin": [
+                        "Code"
+                    ],
+                    "private": false,
+                    "public_url": "https://kdocs.cn/l/cqGSWiSlqCDS",
+                    "tags": [
+                        "Data",
+                        "Compression"
+                    ],
+                    "title": "代码压缩测试统计",
+                    "view": [
+                        "Documentation"
+                    ],
+                    "weight": 100
+                },
+                "id": "CJ"
+            },
+            {
+                "fields": {
+                    "abstract": "不同文件的压缩效率汇总",
+                    "create_at": "2024/09/26",
+                    "origin": [
+                        "Others"
+                    ],
+                    "private": false,
+                    "public_url": "https://docs.qq.com/sheet/DWFV6UU9CaGxxSmhY?tab=hyy8xv",
+                    "tags": [
+                        "Data",
+                        "Compression"
+                    ],
+                    "title": "不同数据的压缩统计汇总",
+                    "view": [
+                        "Documentation"
+                    ],
+                    "weight": 100
+                },
+                "id": "CL"
+            },
+            {
+                "fields": {
+                    "abstract": "维基百科的演化-20230619_预测",
+                    "create_at": "2024/09/26",
+                    "origin": [
+                        "Wikipedia"
+                    ],
+                    "private": false,
+                    "public_url": "https://kdocs.cn/l/cjfraaZ83ZsU",
+                    "tags": [
+                        "Wikipedia",
+                        "Article"
+                    ],
+                    "title": "维基百科的演化预测",
+                    "view": [
+                        "Documentation"
+                    ],
+                    "weight": 100
+                },
+                "id": "CM"
+            },
+            {
+                "fields": {
+                    "abstract": "颠覆度并不颠覆：用 Wikipedia测量知识的增长",
+                    "create_at": "2024/09/26",
+                    "origin": [
+                        "Wikipedia"
+                    ],
+                    "private": false,
+                    "public_url": "https://kdocs.cn/l/ccTIaXtLwuYM",
+                    "tags": [
+                        "Wikipedia",
+                        "Article"
+                    ],
+                    "title": "颠覆度并不颠覆",
+                    "view": [
+                        "Documentation"
+                    ],
+                    "weight": 100
+                },
+                "id": "CN"
+            },
+            {
+                "fields": {
+                    "abstract": "经济复杂度（Economic Complexity Index, ECI）是一个衡量一个国家或地区经济复杂性的指标。它基于一个国家或地区出口产品的多样性和复杂性，来评估其经济的复杂度。我们将这个理论推广到知识领域, 提出了知识复杂度指数（Knowledge Complexity Index, KCI）。",
+                    "create_at": "2024/09/26",
+                    "origin": [
+                        "Others"
+                    ],
+                    "private": false,
+                    "public_url": "https://kdocs.cn/l/ceaiTukYjmQK",
+                    "tags": [
+                        "Knowledge complexity",
+                        "Article"
+                    ],
+                    "title": "经济复杂性总结",
+                    "view": [
+                        "Documentation"
+                    ],
+                    "weight": 425
+                },
+                "id": "CO"
+            },
+            {
+                "fields": {
+                    "abstract": "常规压缩算法, 和 LLM + 算术编码压缩算法的测试",
+                    "create_at": "2024/09/26",
+                    "origin": [
+                        "Others"
+                    ],
+                    "private": false,
+                    "public_url": "https://kdocs.cn/l/cjEl3ZlMh2Y8",
+                    "tags": [
+                        "Compression",
+                        "Article"
+                    ],
+                    "title": "文本压缩规律小结",
+                    "view": [
+                        "Documentation"
+                    ],
+                    "weight": 100
+                },
+                "id": "CP"
+            },
+            {
+                "fields": {
+                    "abstract": "知识复杂度指数（Knowledge Complexity Index, KCI）是一个衡量国家或地区知识复杂性的指标，它基于知识产出的多样性和深度，反映了一个国家在科学、技术和创新领域中的知识创造和应用能力。只是复杂度综合网站集合了多个数据源, 展示了不同类别的知识复杂度。",
+                    "create_at": "2024/09/27",
+                    "origin": [
+                        "Websites",
+                        "Code",
+                        "Patents",
+                        "Wikipedia",
+                        "Academic Publications"
+                    ],
+                    "private": false,
+                    "public_url": "https://kg.dev.knogen.com:10444/",
+                    "tags": [
+                        "OpenAlex",
+                        "Subjects",
+                        "Patents",
+                        "International ",
+                        "Wikipedia",
+                        "Knowledge complexity"
+                    ],
+                    "title": "知识复杂度综合网站",
+                    "view": [
+                        "Websites"
+                    ],
+                    "weight": 420
+                },
+                "id": "CQ"
             }
         ]
     }

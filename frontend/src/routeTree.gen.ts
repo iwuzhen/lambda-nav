@@ -150,6 +150,10 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LayoutPageImport
       parentRoute: typeof LayoutImport
     }
+    '/_layout/': {
+      preLoaderRoute: typeof LayoutIndexImport
+      parentRoute: typeof LayoutImport
+    }
     '/_admin/admin/admin': {
       preLoaderRoute: typeof AdminAdminAdminImport
       parentRoute: typeof AdminImport
@@ -173,10 +177,6 @@ declare module '@tanstack/react-router' {
     '/_admin/admin/settings': {
       preLoaderRoute: typeof AdminAdminSettingsImport
       parentRoute: typeof AdminImport
-    }
-    '/_layout/': {
-      preLoaderRoute: typeof LayoutIndexImport
-      parentRoute: typeof LayoutImport
     }
   }
 }

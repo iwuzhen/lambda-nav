@@ -1,9 +1,5 @@
-import { createFileRoute } from '@tanstack/react-router'
-
-export const Route = createFileRoute('/_layout/')({
-  component: () => <div>Hello /_layout/!</div>
-})ter"
-
+import { Box, useColorModeValue, Icon, chakra, Container, Flex, SimpleGrid, Link } from '@chakra-ui/react'
+import { createFileRoute, } from '@tanstack/react-router'
 
 import {
   Link as RouterLink,
@@ -23,13 +19,13 @@ const IconMap: Record<string, React.ReactNode> = {
 }
 
 const topTitle = "Research"
-const mainTitle = "Research findings navigator."
-const subTitle = "2024"
+const mainTitle = "Research Navigator"
+const subTitle = "围绕多种数据开展研究"
 
 const indexTree = [
   {
     title: "Academic Publications",
-    describe: "Academic Publications(学术出版物)，包含arXiv、MAG（Microsoft Aacaademic Graph）、OpenAlex（前身是MAG）。",
+    describe: "Academic Publications (学术出版物)，包含 arXiv、MAG（Microsoft Aacaademic Graph）、OpenAlex（前身是MAG）的数据。",
     search: {
       origin: ['Academic Publications'],
       title: "Academic Publications",
@@ -37,7 +33,7 @@ const indexTree = [
   },
   {
     title: "Wikipedia",
-    describe: "Wikipedia(维基百科)是一个开放的百科全书，包含大量实体数据（包括文章、分类、引用关系等）。",
+    describe: "Wikipedia (维基百科)，包含实体数据（文章、分类、引用关系等）。",
     search: {
       tags: ['Wikipedia'],
       title: "Wikipedia",
@@ -45,7 +41,7 @@ const indexTree = [
   },
   {
     title: "Encyclopædia Britannica",
-    describe: "Encyclopædia Britannica (不列颠百科全书)分类结构。",
+    describe: "Encyclopædia Britannica（不列颠百科全书）分类结构。",
     search: {
       origin: ['Encyclopædia Britannica'],
       title: "Encyclopædia Britannica",
@@ -53,7 +49,7 @@ const indexTree = [
   },
   {
     title: "Patents",
-    describe: "Patents(专利)包含世界各国专利。",
+    describe: "Patents (专利), 世界各国专利。",
     search: {
       origin: ['Patents'],
       title: "Patents",
@@ -68,8 +64,8 @@ const indexTree = [
     },
   },
   {
-    title: "Other",
-    describe: "其他研究结果。",
+    title: "Others",
+    describe: "",
     search: {
       origin: ['Others'],
       title: "Other",
