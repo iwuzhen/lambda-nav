@@ -29,7 +29,7 @@ const subTitle = "2024"
 const indexTree = [
   {
     title: "Academic Publications",
-    describe: "Academic Publications (学术出版物)，包含 arXiv、OpenAlex，MAG (Microsoft Academic Graph) 等多个引文网络数据库。从中计算出不同学科之间的距离, 能够得到学科之间的关系。",
+    describe: "Academic Publications(学术出版物)，包含arXiv、MAG（Microsoft Aacaademic Graph）、OpenAlex（前身是MAG）。",
     search: {
       origin: ['Academic Publications'],
       title: "Academic Publications",
@@ -37,7 +37,7 @@ const indexTree = [
   },
   {
     title: "Wikipedia",
-    describe: "Wikipedia (维基百科) 是一个开放的百科全书，有海量文章和超高更新频率。从中挖掘出学科, 并计算关系距离, 了解学科发展趋势。",
+    describe: "Wikipedia(维基百科)是一个开放的百科全书，包含大量实体数据（包括文章、分类、引用关系等）。",
     search: {
       tags: ['Wikipedia'],
       title: "Wikipedia",
@@ -45,7 +45,7 @@ const indexTree = [
   },
   {
     title: "Encyclopædia Britannica",
-    describe: "Encyclopædia Britannica (不列颠百科全书) 的目录是一棵学科分类树。",
+    describe: "Encyclopædia Britannica (不列颠百科全书)分类结构。",
     search: {
       origin: ['Encyclopædia Britannica'],
       title: "Encyclopædia Britannica",
@@ -53,7 +53,7 @@ const indexTree = [
   },
   {
     title: "Patents",
-    describe: "Patents (专利) 包含世界各国专利, 对不同国家的专利数据进行比较。",
+    describe: "Patents(专利)包含世界各国专利。",
     search: {
       origin: ['Patents'],
       title: "Patents",
@@ -61,7 +61,7 @@ const indexTree = [
   },
   {
     title: "Code",
-    describe: "Code (开源代码), 用不同地区对开源项目的贡献度计算知识复杂度。",
+    describe: "Code (开源代码)。",
     search: {
       tags: ['Github'],
       title: "Code",
@@ -69,7 +69,7 @@ const indexTree = [
   },
   {
     title: "Other",
-    describe: "其他方面的研究结果。",
+    describe: "其他研究结果。",
     search: {
       origin: ['Others'],
       title: "Other",
