@@ -1,5 +1,8 @@
-import { Container, Flex, Link, useColorModeValue, SimpleGrid, Box, chakra, Icon } from "@chakra-ui/react"
-import { createFileRoute } from "@tanstack/react-router"
+import { createFileRoute } from '@tanstack/react-router'
+
+export const Route = createFileRoute('/_layout/')({
+  component: () => <div>Hello /_layout/!</div>
+})ter"
 
 
 import {
@@ -19,10 +22,14 @@ const IconMap: Record<string, React.ReactNode> = {
   "Other": <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z" /></svg>
 }
 
+const topTitle = "Research"
+const mainTitle = "Research findings navigator."
+const subTitle = "2024"
+
 const indexTree = [
   {
     title: "Academic Publications",
-    describe: "Academic Publications 涵盖多个领域研究，包括 arXiv 分类学、OpenAlex 概念及各种统计数据，还有 MAG 的学科网络图、相关度、学科网络统计趋势等，涉及计算机科学、数学、物理学等多学科。",
+    describe: "Academic Publications (学术出版物)，包含 arXiv、OpenAlex，MAG (Microsoft Academic Graph) 等多个引文网络数据库。从中计算出不同学科之间的距离, 能够得到学科之间的关系。",
     search: {
       origin: ['Academic Publications'],
       title: "Academic Publications",
@@ -30,7 +37,7 @@ const indexTree = [
   },
   {
     title: "Wikipedia",
-    describe: "Wikipedia 有学科树、文章数、访问次数等统计数据，还有学科相关度、度分布熵、结构熵等指标，以及学科网络统计趋势和幂律变化等，包含知识体系架构，涵盖多个研究领域",
+    describe: "Wikipedia (维基百科) 是一个开放的百科全书，有海量文章和超高更新频率。从中挖掘出学科, 并计算关系距离, 了解学科发展趋势。",
     search: {
       tags: ['Wikipedia'],
       title: "Wikipedia",
@@ -38,7 +45,7 @@ const indexTree = [
   },
   {
     title: "Encyclopædia Britannica",
-    describe: "包括大英百科全书 Category 树。",
+    describe: "Encyclopædia Britannica (不列颠百科全书) 的目录是一棵学科分类树。",
     search: {
       origin: ['Encyclopædia Britannica'],
       title: "Encyclopædia Britannica",
@@ -46,7 +53,7 @@ const indexTree = [
   },
   {
     title: "Patents",
-    describe: "Patents 包括 IPC 查询工具，以及知识复杂度（专利）的研究。还有中美不同地区及城市专利数比较、专利领域发展动态及区域差异，涵盖国际范围。",
+    describe: "Patents (专利) 包含世界各国专利, 对不同国家的专利数据进行比较。",
     search: {
       origin: ['Patents'],
       title: "Patents",
@@ -54,7 +61,7 @@ const indexTree = [
   },
   {
     title: "Code",
-    describe: "通过 Github 项目以及开发者数据计算得出的知识复杂度。",
+    describe: "Code (开源代码), 用不同地区对开源项目的贡献度计算知识复杂度。",
     search: {
       tags: ['Github'],
       title: "Code",
@@ -118,18 +125,6 @@ function PageIndex() {
   return (
 
     <Container maxW="full" p={0}>
-      {/* {
-        indexTree.map((item, index) => (
-          <Flex key={item.title} align="center" justify="center" bg={index % 2 == 0 ? bg_o : bg_e}>
-            <Link p={5} m={4} as={RouterLink} _hover={{ textDecoration: 'none' }}
-              to="/page"
-              search={item.search}>
-              <Text fontSize="3xl" fontWeight="500" textAlign="center" _hover={{ textDecoration: 'underline' }}> {item.title} </Text>
-              <Text fontSize="md" textAlign="center"> {item.describe} </Text>
-            </Link>
-          </Flex>
-        ))
-      } */}
       <Box
         maxW="7xl"
         mx="auto"
@@ -152,7 +147,7 @@ function PageIndex() {
             textTransform="uppercase"
             letterSpacing="wide"
           >
-            Knogen
+            {topTitle}
           </chakra.h2>
           <chakra.p
             mt={2}
@@ -167,7 +162,7 @@ function PageIndex() {
               color: "gray.900",
             }}
           >
-            A unique research findings navigator.
+            {mainTitle}
           </chakra.p>
           <chakra.p
             mt={4}
@@ -181,7 +176,7 @@ function PageIndex() {
               color: "gray.400",
             }}
           >
-            欢迎来到 Knogen Navigator！这里有 “Academic Publications” 的多学科前沿研究，“Wikipedia” 的知识体系架构参考，“Encyclopædia Britannica” 大英百科分类，“Patents” 的专利动态与区域差异，以及 “Code” 的 Github 知识复杂度成果。
+            {subTitle}
           </chakra.p>
         </Box>
       </Box>

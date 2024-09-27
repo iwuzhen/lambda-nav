@@ -5,7 +5,7 @@ import MarkdownPreview from '@uiw/react-markdown-preview';
 import { Container, useColorModeValue } from "@chakra-ui/react";
 
 const markdown = `
-# Knogen Navigator: 学科研究导航
+# Research Navigator: 研究导航
 
 
 ## 一、丰富的学术分类体系
